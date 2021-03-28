@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-image {
+  
+  background-image:  url('../image/102027_svenska_flaggan_176392773.png');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:1;
+  transition:all 0.7s;
+
+}
+
+.bg-image:hover{
+    opacity:0.8;
+    transition:all 0.2s;
+    cursor: pointer;
+}
+
+.paragraph{
+   color: #fafafa;
+   float: right;
+   margin: 40px;
+   font-weight: 600;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 50px;
+   font-style: italic;
+   text-transform: uppercase;
+  
+}
+
+@media only screen and (max-width: 767px) {
+    .paragraph { 
+        font-size: 18px; 
+       float: right;
+    }
+
+    .bg-image{
+        background-size: cover;
+       
+    }
+}
+/*----------------------------------------- --------------------------------Stockholm-page*/
+
+  #navbarNav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+.bg-head{
+    color: #fafafa;
+    font-family: "roboto" , sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+}
+.icon{
+    margin: 0%;
+    padding: 10px;
+    font-size: 35px;
+
+    }
+
+   
+    
+
+@media only screen and (max-width: 576px) {
+   .bg-head{
+       
+       font-size: 18px;
+       padding: 5px;
+       margin: 0;
+         
+   }
+   .icon{
+        font-size: 18px;
+   }
+  
+}
+
+#sweden{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: -moz-element();
+}
+
+#sweden-image{
+     height: 500px;
+    width: 100%;
+    background: url("https://www.visitstockholm.se/media/images/City_Hall_DSC08361_Bjorn_Olin_3.max-1200x630.jpg") no-repeat center center;
+    background-size: cover;
+    animation-name: sweden-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes sweden-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#content{
+     width: 200px;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    bottom: 25px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#content a{
+    text-decoration: none;
+}
+
+
+
+.fa-youtube-play{
+    font-size: 35px;
+    color: #fafafa;
+    margin: 0;
+    padding-right: 10px;
+   
+    
+    
+}
+
+.open-film{
+    font-family: "roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fafafa;
+    
+    
+}
+
+@media only screen and (max-width: 576px) {
+   #sweden-image{
+       
+    height: 200px;
+         
+   }
+   #sweden{
+       height: 200px;
+   }
+
+}
+
+.nav-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: transparent;
+}
+
+
+
+
+
