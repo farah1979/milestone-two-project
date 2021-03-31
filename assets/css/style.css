@@ -124,7 +124,7 @@ body, html {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-image: -moz-element();
+    
 }
 
 #sweden-image{
@@ -253,14 +253,16 @@ body, html {
 
 
 #edjucationInfo , .edjucationInfo{
-    font-size: 25px;
+    
     color:#000;
-    font-weight: 500;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     margin: 0;
-    padding: 5px;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     
 }
 
@@ -367,4 +369,117 @@ body, html {
   width: 220px;
   opacity: 0.5;
 }
+}
+
+.tr-sweden{
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    box-shadow: 0 2px 25px 0 rgb(0 0 0 / 15%);
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+   
+
+}
+.hvr-sweep-to-right:before {
+    background-color: rgb(173, 32, 114);
+   -webkit-transition: all 1500ms ease;
+-moz-transition: all 1500ms ease;
+-ms-transition: all 1500ms ease;
+-o-transition: all 1500ms ease;
+transition: all 1500ms ease;
+    
+}
+
+.fa-lg{
+    color: rgb(173, 32, 114);
+    margin-right: 10px;
+
+}
+
+#tourism , #history{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.tr-po{
+    
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+
+.bg-footer{
+    background: #fdd835;
+    min-height: 150px;
+}
+
+.foot-info{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 25px;
+    margin-left: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+    text-transform: capitalize;
+
+}
+
+.foot-link{
+     display: block;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bg-footer img{
+    margin: 20px;
+    
+}
+
+.social-links{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.social-links i{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    color: blue;
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
 }
