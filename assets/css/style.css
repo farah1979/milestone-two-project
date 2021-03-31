@@ -5,6 +5,7 @@ body, html {
   margin: 0;
 }
 
+
 .bg-image {
   
   background-image:  url('../image/102027_svenska_flaggan_176392773.png');
@@ -47,6 +48,31 @@ body, html {
     }
 }
 /*----------------------------------------- --------------------------------Stockholm-page*/
+#header {
+ 
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  z-index: 2;
+}
+
+.sticky-header {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.sticky + .sticky-header {
+    padding-top: 50px;
+}
+
+
 
   #navbarNav{
     display: flex;
@@ -54,8 +80,11 @@ body, html {
     align-items: center;
     align-content: center;
     justify-content: center;
+   
 
   }
+
+  
 
 .bg-head{
     color: #fafafa;
@@ -156,29 +185,186 @@ body, html {
 }
 
 @media only screen and (max-width: 576px) {
-   #sweden-image{
-       
-    height: 200px;
-         
-   }
+   
    #sweden{
-       height: 200px;
+       height: 400px;
    }
 
 }
 
-.nav-section{
+#wel-to-swed{
+    font-family: "Roboto" , sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 3px 3px goldenrod;
+}
 
-    display: flex;
+.guid-image {
+     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin: 10px;
+    padding: 5%;
+  
+}
+
+.guid-image img{
+    margin: 0;
+    padding-bottom: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+   
+}
+
+.guid-image li{
+    border: none;
+}
+
+.info-list{
+    text-align: center;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.image-img{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    height: 10px;
+    width: 20px;
+}
+
+.swed{
+    
+    transform: scale(1) rotate(-25deg) translate(2px, 2px) skew(10deg, 10deg);
+    z-index: 5;
     background-color: transparent;
+    font-size: 20px;
+}
+
+
+#edjucationInfo , .edjucationInfo{
+    font-size: 25px;
+    color:#000;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 5px;
+    
+}
+
+
+
+.parOne{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 25px;
+    color: #000;
+    margin: 0;
+    padding: 5px;
 }
 
 
 
 
+.headList_0{
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
 
+.headList_1{
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 2;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+.headList_1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.list-img{
+
+    height: 400px;
+    width: 400px;
+    margin: 0;
+     border: 1px solid #3f4144;
+     margin: 30px;
+
+
+}
+
+@media only screen and (max-width: 576px) {
+   
+   .list-img{
+      height: 200px;
+      width: 200px;
+   }
+}
+
+.in-image{
+
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.table-img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px ;
+    margin-right: 15px;
+    border: 1px solid #3f4144;
+    
+}
+
+.table-img:hover {
+  width: 300px;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 576px) {
+   
+   .table-img{
+      height: 200px;
+      width: 200px;
+   }
+   .table-img:hover {
+  width: 220px;
+  opacity: 0.5;
+}
+}
