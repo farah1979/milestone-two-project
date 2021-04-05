@@ -483,3 +483,203 @@ transition: all 1500ms ease;
     border-radius: 50px;
     text-align: center;
 }
+
+/*-------------------------------------------------------------Stockholm-page*/
+#stock-row{
+      display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+.visit-head{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+
+@media only screen and (max-width: 576px) {
+   
+  .visit-head{
+      font-size: 25px;
+   }
+  .flagg-1 , .flagg-2{
+    font-size: 25px;
+}
+}
+
+
+
+.flagg-1{
+    color: yellow;
+}
+
+.flagg-2{
+    color: blue;
+}
+
+.para-2{
+     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+#stockholm-image-one{
+    background: url("../image/fika-i-stockholm.jpg") no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    margin: 10px;
+     border-radius: 2%;
+}
+
+#stockholm-image-one:hover{
+    background-size: 560px;
+}
+
+@media only screen and (max-width: 576px) {
+   
+  #stockholm-image-one{
+      width: 300px;
+   }
+}
+
+
+
+
+
+#stockholm-text-one {
+    padding-top: 10px;
+    padding-left: 10px;
+    bottom: 20px; 
+font-size: 15px;
+color: #fafafa;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+#stockholm-image-two{
+    background: url("../image/IMG_stockholm.jpg") no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    margin: 10px;
+   border-radius: 2%;
+   
+}
+
+#stockholm-image-two:hover{
+    background-size: 540px;
+}
+
+
+ #stockholm-text-two{
+      padding-top: 10px;
+    padding-left: 10px;
+    bottom: 20px; 
+font-size: 15px;
+color: #fafafa;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+    position: absolute;
+    text-transform: uppercase;
+ }
+
+ #stockholm-image-three{
+    background: url("../image/event-i-stockholm.jpg") no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    margin: 10px;
+     border-radius: 2%;
+}
+#stockholm-image-three:hover{
+    background-size: 320px;
+}
+
+ #stockholm-text-three{
+    padding-top: 10px;
+    padding-left: 10px;
+    bottom: 20px; 
+font-size: 15px;
+color: #fafafa;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+    position: absolute;
+    text-transform: uppercase;
+    
+ }
+
+
+.line{
+     border: 1px solid ;
+  
+  width: 50%;
+}
+
+.sunny{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 13px;
+    padding: 10px;
+}
+
+.walk-info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.walk-image , #walk-image{
+    max-width: 600px;
+   max-height: 550px;
+    
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+@media only screen and (max-width: 576px) {
+   
+  .walk-image{
+      width: 250px;
+      height: 250px;
+   }
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
