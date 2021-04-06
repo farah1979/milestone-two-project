@@ -678,8 +678,82 @@ font-weight: 500;
    }
 }
 
-#map {
-  height: 500px;
-  width: 100%;
+
+.card-row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card {
+    
+      padding: 15px;
+      border: 2px solid #c9c9c9;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    }
+
+   
+
+   .card-body {
+       padding-top: 3px;
+       margin:8px;
+   }
+
+.card img{
+    margin: 5px;
+    padding-top: 8px;
+    padding-bottom: 35px;
+    padding-right: 8px;
+   min-width: 180px;
+    min-height: 200px;
+}
+.text{
+    font-size: 13px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-left: 26px;
+    
 }
 
+.card a{
+    text-decoration: none;
+}
+
+
+
+
+
+#map {
+ height: 720px;
+  width: 100%;
+  margin:10px;
+  
+  
+}
+
+@media only screen and (max-width: 576px) {
+   
+  #map {
+ height: 400px;
+  width: 100%;
+  margin:10px;
+  
+  
+}
+}
+
+.map-div{
+      display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#gallery{
+    margin: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: inherit;
+}

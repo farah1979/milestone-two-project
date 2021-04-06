@@ -102,3 +102,8 @@ let data = Object.keys(informationTable[0]);
 generateTableHead(table, data);
 generateTable(table, informationTable);
 table.setAttribute("border", "2");
+
+
+
+
+
