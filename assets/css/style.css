@@ -800,30 +800,31 @@ font-weight: 500;
 }
 
 /*---------------------------------------------------portofolio-page*/
-* {
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
 
 /* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
+.head {
+  width: 100%;
+  margin-top: 200px;
+ 
+
 }
 
-h1 {
-  font-size: 50px;
-  word-break: break-all;
+.head div{
+    height: 500px;
 }
 
-.row {
-  margin: 10px -16px;
+@media only screen and (max-width: 576px) {
+   
+  .head {
+ margin-top: 140px;
+  
+  
 }
+}
+
+
+
 
 /* Add padding BETWEEN each column */
 .row,
@@ -836,6 +837,17 @@ h1 {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
+}
+
+@media only screen and (max-width: 576px) {
+   
+  .column {
+ 
+   float: left;
+  width: 50%;
+  display: none;
+  
+}
 }
 
 /* Clear floats after rows */ 
