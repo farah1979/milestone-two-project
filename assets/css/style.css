@@ -156,12 +156,11 @@ body {
     font-size: 30px;
     font-weight: 500;
     color: #000;
-    letter-spacing: 8px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     margin: 0;
     padding: 20px;
-    text-shadow: 3px 3px goldenrod;
 }
 
 .guid-image {
@@ -486,6 +485,7 @@ transition: all 1500ms ease;
 #stockholm-content{
      width: 200px;
     height: 50px;
+    
 
     padding-top: 10px;
     padding-left: 10px;
@@ -496,8 +496,26 @@ transition: all 1500ms ease;
     position: absolute;
 }
 
+.carousel-item h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+   
 
+}
 
+.carousel-item p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+   
+}
+
+.carousel-item{
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
 
 #stock-row{
       display: flex;
@@ -648,12 +666,18 @@ font-weight: 500;
     
  }
 
-
 .line{
-     border: 1px solid ;
-  
-  width: 50%;
+   border: 1px solid #000;
+   width: 600px;
+ 
 }
+
+@media only screen and (max-width: 576px) {
+   
+    .line{
+        width: 300px;
+     }
+  }
 
 .sunny{
     font-family: "Roboto", sans-serif;
@@ -684,6 +708,11 @@ font-weight: 500;
     align-content: center;
     justify-content: center;
    
+}
+
+.walk-image{
+    padding: 0;
+    margin: 25px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -762,7 +791,7 @@ font-weight: 500;
 
 /*---------------------------------------------------------------------*/
 
-.gallary div {
+.more-info div {
        display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -771,7 +800,7 @@ font-weight: 500;
     position: relative;
 }
 
-.gallary-text{
+.more-text{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -780,7 +809,7 @@ font-weight: 500;
     text-transform: uppercase;
 }
 
-#gallary-box img{
+#more-box img{
     padding: 6px;
     margin: 0;
     margin-bottom: 10px;
@@ -788,7 +817,7 @@ font-weight: 500;
    
 }
 
-#gallary-box .content {
+#more-box .content {
   position: absolute; 
   top:1;
   bottom: 0; 
@@ -808,7 +837,7 @@ font-weight: 500;
     color: #fafafa;
 }
 
-.gallary-para{
+.more-para{
     
     margin: 0;
     padding-top: 5px;
