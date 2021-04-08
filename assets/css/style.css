@@ -801,35 +801,54 @@ font-weight: 500;
 
 /*---------------------------------------------------portofolio-page*/
 
-
-/* Center website */
 .head {
   width: 100%;
-  margin-top: 200px;
- 
-
-}
-
-.head div{
-    height: 500px;
-}
-
-@media only screen and (max-width: 576px) {
-   
-  .head {
- margin-top: 140px;
-  
-  
-}
+  margin-top: 40px;
 }
 
 
 
+.gallary-head{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#000;
+    text-transform: uppercase;
+}
 
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
+#myGallary .btn{
+    color: #fafafa;
+    background-color: #343a40;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+
+}
+
+#myGallary button{
+    padding: 10px 15px;
+    margin: 3px;
+    
+}
+
+#myGallary button:hover{
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+
+#myGallary div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -844,25 +863,44 @@ font-weight: 500;
   .column {
  
    float: left;
-  width: 50%;
+  width: 100%;
   display: none;
   
 }
 }
 
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Content */
 .content {
   background-color: white;
-  padding: 10px;
+ 
 }
 
+.content img , .content h4,.content  p{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+@media only screen and (max-width: 576px) {
+   
+    .content img{
+   
+    width: 80%;
+    
+  }
+  }
+
+  .content img{
+      width: 100%;
+  }
+
+.food img{
+    width: 98%;
+}
+
+.event img{
+    width: 98%;
+}
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -885,3 +923,58 @@ font-weight: 500;
   background-color: #666;
   color: white;
 }
+
+
+#gallary-container{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#gallary-foto{
+     height: 500px;
+    width: 100%;
+    background: url("../image/Stockholm-view-1.webp") no-repeat center center;
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+
+#main{
+    padding-top: 10px;
+    padding-left: 10px;
+    bottom: 25px;
+    
+   position: absolute;
+}
+
+#main h1{
+    color:#fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+   
+
+}
+
+#main span{
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    
+   
+
+}
+
+nav #navbarToggleExternalContent {
+    display: none;
+  }
+
+  @media (max-width: 960px) {
+    nav #navbarNav   { display: none; }
+    nav #navbarToggleExternalContent { display: inline-block; }
+  }
