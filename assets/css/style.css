@@ -1,52 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body, html {
+body {
   height: 100%;
   margin: 0;
 }
 
 
-.bg-image {
-  
-  background-image:  url('../image/102027_svenska_flaggan_176392773.png');
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity:1;
-  transition:all 0.7s;
-
-}
-
-.bg-image:hover{
-    opacity:0.8;
-    transition:all 0.2s;
-    cursor: pointer;
-}
-
-.paragraph{
-   color: #fafafa;
-   float: right;
-   margin: 40px;
-   font-weight: 600;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 50px;
-   font-style: italic;
-   text-transform: uppercase;
-  
-}
-
-@media only screen and (max-width: 767px) {
-    .paragraph { 
-        font-size: 18px; 
-       float: right;
-    }
-
-    .bg-image{
-        background-size: cover;
-       
-    }
-}
 /*----------------------------------------- --------------------------------Stockholm-page*/
 #header {
  
