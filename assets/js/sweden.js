@@ -1,24 +1,22 @@
- // When the user scrolls down  from the top of the document
-window.onscroll = function () {
-                myFunction();
-            };
+ // Scroll The Header From Top To Botton
+window.onscroll = function () { myScrollFunction(); };
 
             var header = document.getElementById("header");
-            var sticky = header.offsetTop;
+            var scroll = header.offsetTop;
 
-            function myFunction() {
+            function myScrollFunction() {
                 if (window.pageYOffset > sticky) {
-                    header.classList.add("sticky");
+                    header.classList.add("scroll");
                 } else {
-                    header.classList.remove("sticky");
+                    header.classList.remove("scroll");
                 }
             }
 
 
-// creat New List in Html-Page
 
 
 
+// creat New List in index.html page
 
 $( "<h2>Useful Education links</h2>").addClass("headList_0").appendTo( ".designList" );
 
@@ -32,28 +30,25 @@ $("#educationList").addClass("headList_1").addClass("headList_1 a");
          '<a href=https://www.government.se/government-of-sweden/ministry-of-education-and-research/>Ministry of Education and Research</a>'
 
               ];
-  function myTable(str) {
-   var div = document.getElementById('educationList');
+
+             
+
+  function myListItem(data) {
+   var list = document.getElementById('educationList');
   var ul = document.createElement('ul');
-    for (var i = 0; i < str.length; i++) { 
+    for (var i = 0; i < data.length; i++) { 
         ul.innerHTML = ul.innerHTML + "<li><a href='#'>" + myArray[i] + "</a></li>";;
     }
 
-      div.appendChild(ul);
+      list.appendChild(ul);
 }
-myTable(myArray);
+myListItem(myArray);
+
+
 
 
 //Creat Ney Table
     
-
-
-
-
-
-
-
-
 let informationTable = [
   {English_Name: "Social Science Programme", Swedish_Name: "Samhällsvetenskapsprogrammet", Percent_Of_Students:"19.2%" },
   {English_Name: "Natural Science Programme", Swedish_Name: "Naturvetenskapsprogrammet", Percent_Of_Students:"14.9%" },
@@ -75,10 +70,10 @@ let informationTable = [
   {English_Name: "Humanities Programme", Swedish_Name: "Humanistiska programmet", Percent_Of_Students:"0.8%" }
 ];
 
-function generateTableHead(table, data) {
+function creatTableHead(table, content) {
   let thead = table.createTHead();
   let row = thead.insertRow();
-  for (let key of data) {
+  for (let key of content) {
     let th = document.createElement("th");
     let text = document.createTextNode(key);
     th.appendChild(text);
@@ -86,8 +81,8 @@ function generateTableHead(table, data) {
   }
 }
 
-function generateTable(table, data) {
-  for (let element of data) {
+function creatTable(table, content) {
+  for (let element of content) {
     let row = table.insertRow();
     for (key in element) {
       let cell = row.insertCell();
@@ -99,9 +94,11 @@ function generateTable(table, data) {
 
 let table = document.querySelector("table");
 let data = Object.keys(informationTable[0]);
-generateTableHead(table, data);
-generateTable(table, informationTable);
-table.setAttribute("border", "2");
+creatTableHead(table, data);
+creatTable(table, informationTable);
+table.setAttribute("border" , "1");
+$("table").addClass("tableForm");
+
 
 
 

@@ -1,17 +1,15 @@
-// The following example creates five accessible and
-// focusable markers.
+// Here a map was created with the markers and coordinates
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 13,
-    center: { lat:  59.334591, lng: 18.063240 },
+    center: { lat:  59.334591, lng: 18.06 },
   });
 
-  // Set LatLng and title text for the markers. The first marker (Boynton Pass)
-  // receives the initial focus when tab is pressed. Use arrow keys to
-  // move between markers; press tab again to cycle through the map controls.
+  // Set LatLng and title text for the markers.
+
   const tourStops = [
-    [{ lat: 59.325, lng: 18.07 }, "<h6>Kafe Himlavalvet</h6><p><strong>Adress:</strong> Drottninggatan 120, 113 60 Stockholm,<br> <strong>Telefon:</strong> 08-31 40 41</p>"],
-    [{ lat: 59.33879, lng: 18.08487 }, "<h6>Karla Café</h6><p><strong>Adress:</strong> Karlavägen 71, 114 49 Stockholm<br> <strong>Telefon:</strong>  08-660 74 73</p>"],
+    [{ lat: 59.325, lng: 18.07 }, "<h6>Kafe Himlavalvet</h6><p><strong>Adress:</strong> Drottninggatan 120, 113 60 Stockholm,<br> <strong>Telefon:</strong> 08-31 40 41,<br><strong>Hemsida:<a href ='https://www.kafehimlavalvet.se/' target='_blank'>www.kafehimlavalvet.se</a> </strong> </p>"],
+    [{ lat: 59.33981132291015, lng:18.082809884656452 }, "<h6>Karla Café</h6><p><strong>Adress:</strong> Karlavägen 71, 114 49 Stockholm<br> <strong>Telefon:</strong>  08-660 74 73 ,<br><strong>Hemsida:<a href ='https://https://karlacafe.com//' target='_blank'>www.karlacafe.se</a> </strong>,<br> <img src='assets/image/karla-logo.png' width='100', height='100'> </p>"],
     [{ lat: 59.36038489496856, lng:17.999916533739082}, "<h6>Restaurang Etage</h6><p><strong>Adress:</strong> Centralvägen 21, 171 68 Solna<br> <strong>Telefon:</strong>  +46768558100 , <br><strong>Hemsida:</strong></p>"],
     [{ lat: 59.32011523377366, lng:18.05069938315683 }, "<h4 id='one'>Skinnarviksberget</h4>"],
     [{ lat:59.32483832078746, lng: 18.067565089814156 }, "<h4>Collector's Victory Hotel</h4>"],
@@ -28,11 +26,14 @@ function initMap() {
   ];
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
+  
   // Create the markers.
   tourStops.forEach(([position, title], i) => {
+   
     const marker = new google.maps.Marker({
       position,
       map,
+     
       title: `${i + 1}. ${title}`,
       label: `${i + 1}`,
       optimized: false,
