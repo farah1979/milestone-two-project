@@ -10,6 +10,38 @@ body {
 
   }
 
+
+  
+.navbar-header {
+
+    background-image: none;
+    }
+    #menu {
+    
+    margin: 20px;
+    
+       
+    }
+     ul{
+        text-align: center;
+      
+        
+    }
+    
+    .bg-head{
+        margin: 30px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        padding: 10px;
+    
+    }
+
+
+
+
 #header {
  
   position: fixed; 
@@ -241,6 +273,16 @@ body {
     padding: 5px;
 }
 
+.partwo{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400 ;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #000;
+    margin: 0;
+    padding: 10px;
+}
 
 
 
@@ -322,7 +364,7 @@ body {
 #educationList img{
     height: 300px;
     width: 300px;
-     margin: 5px;
+     margin-top: 15%;
       border: 1px solid #3f4144;
 }
 
@@ -369,13 +411,23 @@ body {
     height: 200px;
     width: 250px;
     display: block;
-    margin: 30px;
+    margin: 50px;
     
     border: 1px solid #3f4144;
     
 }
 
-.table-img:hover {
+.table-img-two{
+    height: 200px;
+    width: 250px;
+    display: block;
+    margin: 10px;
+    
+    border: 1px solid #3f4144;
+
+}
+
+.table-img:hover , .table-img-two:hover {
   width: 220px;
   opacity: 0.5;
 }
@@ -839,8 +891,7 @@ font-weight: 500;
  height: 720px;
   width: 100%;
   margin:10px;
-  
-  
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -911,130 +962,7 @@ font-weight: 500;
     font-size: 15px;
 }
 
-/*---------------------------------------------------portofolio-page*/
-
-.head {
-  width: 100%;
-  margin-top: 40px;
-}
-
-
-
-.gallary-head{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 2px;
-    color:#000;
-    text-transform: uppercase;
-}
-
-#myGallary .btn{
-    color: #fafafa;
-    background-color: #343a40;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    
-
-}
-
-#myGallary button{
-    padding: 10px 15px;
-    margin: 3px;
-    
-}
-
-#myGallary button:hover{
-    background-color: #fff;
-    color: #000;
-    display: inline-block;
-}
-
-#myGallary div{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide all elements by default */
-}
-
-@media only screen and (max-width: 576px) {
-   
-  .column {
- 
-   float: left;
-  width: 100%;
-  display: none;
-  
-}
-}
-
-
-.content {
-  background-color: white;
- 
-}
-
-.content img , .content h4,.content  p{
-    margin: 5px;
-    padding: 5px;
-
-}
-
-@media only screen and (max-width: 576px) {
-   
-    .content img{
-   
-    width: 80%;
-    
-  }
-  }
-
-  .content img{
-      width: 100%;
-  }
-
-.food img{
-    width: 98%;
-}
-
-.event img{
-    width: 98%;
-}
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
+/*---------------------------------------------------Gallary-page*/
 
 
 #gallary-container{
@@ -1082,11 +1010,129 @@ font-weight: 500;
 
 }
 
-nav #navbarToggleExternalContent {
+
+
+.head {
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+
+.gallary-head{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#000;
+    text-transform: uppercase;
+}
+
+#myGallary .btn{
+    color: #fafafa;
+    background-color: #343a40;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+
+}
+
+#myGallary button{
+    padding: 10px 15px;
+    margin: 3px;
+    text-decoration: none;
+    
+}
+
+#myGallary button:hover{
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+
+
+#myGallary div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; 
+}
+
+@media only screen and (max-width: 576px) {
+   
+  .column {
+ 
+   float: left;
+  width: 100%;
+  display: none;
+  
+}
+}
+
+
+.content img , .content h4,.content  p{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+@media only screen and (max-width: 576px) {
+   
+    .content img{
+   
+    width: 80%;
+    
+  }
+  }
+
+  .content img{
+      width: 100%;
+  }
+
+.food img{
+    width: 98%;
+}
+
+.event img{
+    width: 98%;
+}
+
+.show {
+  display: block;
+}
+
+
+
+
+
+.dropdown{
     display: none;
   }
 
   @media (max-width: 960px) {
     nav #navbarNav   { display: none; }
-    nav #navbarToggleExternalContent { display: inline-block; }
+    .dropdown { display: inline-block; }
   }
+
+  .navbar-toggler .icon-bar {
+    margin: 7px;
+    display: block;
+    width: 22px;
+    height: 1px;
+    background-color: #cccccc;
+    border-radius: 1px;
+  }
+

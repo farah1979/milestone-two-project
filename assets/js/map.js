@@ -7,7 +7,7 @@ function initMap() {
 
   // Set LatLng and title text for the markers.
 
-  const tourStops = [
+  const touristPoints = [
     [{ lat: 59.325, lng: 18.07 }, "<h6>Kafe Himlavalvet</h6><p  style='color:#000; font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong> Drottninggatan 120, 113 60 Stockholm,<br>Sverige<br> <strong>Telefon:</strong> 0046 8-31 40 41,<br><strong>Hemsida:<a href ='https://www.kafehimlavalvet.se/' target='_blank'>www.kafehimlavalvet.se</a> </strong><br> <img src='assets/image/cafe-himlavalvet.jpg'  > </p>"],
     [{ lat: 59.33981132291015, lng:18.082809884656452 }, "<h6>Karla Café</h6><p style='color:#000;  font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong> Karlavägen 71, 114 49 Stockholm<br> Sverige<br><strong>Telefon:</strong>  0046 8-660 74 73 ,<br><strong>Hemsida:<a href ='https://karlacafe.com/' target='_blank'>www.karlacafe.se</a> </strong><br> <img src='assets/image/karla-logo.png'  width='100', height='100'> </p>"],
     [{ lat: 59.34677520266328, lng:18.033688176328575}, "<h6>Caffé Nero</h6><p style='color:#000; font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong> Solnavägen 2, 113 65 Solna<br> , <br><strong>Hemsida: <a href ='https://caffenero.com/se/sv/' target='_blank'>www.caffenero.com</a> </strong><br> <img src='assets/image/caffe-nero-logo.jpg'  height='100' ></strong></p>"],
@@ -24,25 +24,32 @@ function initMap() {
     [{ lat: 59.3541609661811, lng:17.975724930752882},"<h6>STHLM Stage And Music</h6><p style='color:#000;  font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong> Hemvärnsgatan 13, 171 54 Solna<br><strong>Telefon:</strong>  +46706677540 <br>,<strong>Hemsida:<a href ='http://stageandmusic.se/' target='_blank'>Stage And Music</a> </strong><br> <img src='assets/image/stageandmusic-logo.png' style=' background-color: #000;' height='100'> </p>"],
   ];
   // Create an info window to share between markers.
-  const infoWindow = new google.maps.InfoWindow();
   
+  const infoWindow = new google.maps.InfoWindow({
+    
+    maxWidth: 250,
+  });
   // Create the markers.
-  tourStops.forEach(([position, title], i) => {
-   
+  touristPoints.forEach(([position, title], i) => {
+  
     const marker = new google.maps.Marker({
       position,
       map,
-     
+      markerCluster,
       title: `${i + 1}. ${title}`,
       label: `${i + 1}`,
       optimized: false,
+      
     });
     // Add a click listener for each marker, and set up the info window.
     marker.addListener("click", () => {
       infoWindow.close();
       infoWindow.setContent(marker.getTitle());
-      infoWindow.open(marker.getMap(), marker);
+      infoWindow.open(marker.getMap(), marker, );
+      
     });
   });
+  var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+
 }
 
