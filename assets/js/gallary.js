@@ -1,6 +1,23 @@
 //                                                                Gallary-page
 gallarySelect("all") //---------------------Show All Items
 
+function gallarySelect(data) {
+  let i;
+  let x = $(".column");
+  if (data == "all") {
+    data = "";
+  };
+  
+  for (i = 0; i < x.length; i++) {
+    gallaryClassDelete(x[i], "show");
+    if (x[i].className.indexOf(data) > -1){ 
+      gallaryAddClass(x[i], "show");
+    };
+    
+  };
+};
+
+
 function gallaryAddClass(item, name) {
   var i;
   var str1;
@@ -28,21 +45,6 @@ function gallaryClassDelete(item, name) {
   item.className = str1.join(" ");
 }
 
-function gallarySelect(data) {
-  let i;
-  let x = $(".column");
-  if (data == "all") {
-    data = "";
-  };
-  
-  for (i = 0; i < x.length; i++) {
-    gallaryClassDelete(x[i], "show");
-    if (x[i].className.indexOf(data) > -1){ 
-      gallaryAddClass(x[i], "show");
-    };
-    
-  };
-};
 
 var container = $("#myGallary");
 var b = Container.$(".btn");
