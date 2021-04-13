@@ -1,19 +1,20 @@
-const email = document.getElemantById('email');
-const submit=document.getElemantById('submit');
-const fName = document.getElementById("fName");
-const lName = document.getElemantById("lName");
-
-
-submit.addEventListener('click',()=>{
-    if(fName.validity.typeMismatch){
-        fName.setCustomValidity('You Must Write Your Name');
-    }
-    else{
-        fName.setCustomValidity('');
-    }
-    if(email.validity.typeMismatch){
-        email.setCustomValidity('Please enter correct email');
-    }else{
-        email.setCustomValidity('');
-    }
-})
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()

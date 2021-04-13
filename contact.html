@@ -18,8 +18,8 @@
 <header>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="header" >
     <img src="assets/image/Flag_of_Sweden.jpg" alt="logo"  height="40">
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target='#navbarNavDropdown'
-    aria-controls='navbarNavDropdown' aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown" >  
       <ul class="navbar-nav  ml-auto">
@@ -44,7 +44,7 @@
 
 <section class="container-fluid" id="contact-form">
 
-  <form id="bg-form">
+  <form id="bg-form"  class="needs-validation" novalidate>
  <div class="row no-gutters ">
    <div class="col contact-column">
      <h1>Contact Us</h1>
@@ -52,7 +52,13 @@
      <div class="row no-gutters">
       <div class="col-md-10 col-sm-2 contact-info">
         <label for="fName">First Name</label>
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="fName" required>
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="fName"  required  >
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+        Please Enter Your First Name!
+        </div>
       </div>
     </div>
     
@@ -60,12 +66,25 @@
       <div class="col-md-10 col-sm-2 contact-info">
         <label for="lName">Last Name</label>
         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lName"  required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+        Please Enter Your Last Name!
+        </div>
       </div>
+      
     </div>
     <div class="row no-gutters">
     <div class="col-md-10 col-sm-2 contact-info">
       <label for="inputEmail4" class="form-label">Email Address</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email address"  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+      <div class="invalid-feedback">
+      Please Enter Your Email!
+      </div>
     </div>
   </div>
     <div class="row no-gutters">
@@ -73,12 +92,14 @@
       <fieldset>
         
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="10" cols="45" placeholder="MESSAGE"  required> </textarea>
+        <textarea id="message" name="message" rows="10" cols="45" placeholder="MESSAGE"  required> 
+        
+        </textarea>
     </fieldset>
    </div>
   </div>
    <div class="col-md-4 name-label">
-    <button type="submit" class="btn btn-dark"  required>Sign In</button>
+    <button type="submit" class="btn btn-dark" id="signupform"  required>Sign In</button>
 </div>
     
    </div>
