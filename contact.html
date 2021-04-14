@@ -12,6 +12,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_POEdj6itAaMNgwxGUgTJY");
+   })();
+</script>
+
+
+
     <title>Welcome-To-Sweden</title>
   </head>
 <body>
@@ -43,8 +55,8 @@
 </header>
 
 <section class="container-fluid" id="contact-form">
-
-  <form id="bg-form"  class="needs-validation" novalidate>
+ 
+  <form onsubmit="return sendMail(this);" id="bg-form"  class="needs-validation" novalidate>
  <div class="row no-gutters ">
    <div class="col contact-column">
      <h1>Contact Us</h1>
@@ -52,7 +64,7 @@
      <div class="row no-gutters">
       <div class="col-md-10 col-sm-2 contact-info">
         <label for="fName">First Name</label>
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="fName"  required  >
+        <input type="text" name="fName" class="form-control" placeholder="First name" aria-label="First name" id="fName"  required  >
         <div class="valid-feedback">
           Looks good!
         </div>
@@ -65,7 +77,7 @@
     <div class="row no-gutters">
       <div class="col-md-10 col-sm-2 contact-info">
         <label for="lName">Last Name</label>
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="lName"  required>
+        <input type="text" name="lName"  class="form-control" placeholder="Last name" aria-label="Last name" id="lName"  required>
         <div class="valid-feedback">
           Looks good!
         </div>
@@ -77,8 +89,8 @@
     </div>
     <div class="row no-gutters">
     <div class="col-md-10 col-sm-2 contact-info">
-      <label for="inputEmail4" class="form-label">Email Address</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email address"  required>
+      <label for="emailaddress" class="form-label">Email Address</label>
+      <input type="email" name="emailaddress"  class="form-control" id="emailaddress" placeholder="Email address"  required>
       <div class="valid-feedback">
         Looks good!
       </div>
