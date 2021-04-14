@@ -1,12 +1,9 @@
-// Example starter JavaScript for disabling form submissions if there are invalid fields
+// validation Message 
 (function () {
-    'use strict'
+    
+      var validate = document.querySelectorAll('.needs-validation')
   
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
+    Array.prototype.slice.call(validate)
       .forEach(function (form) {
         form.addEventListener('submit', function (event) {
           if (!form.checkValidity()) {
@@ -19,6 +16,9 @@
       })
   })()
 
+
+
+//Contact Emailjs with website
 
   function sendMail(contactForm) {
 
@@ -38,4 +38,4 @@
         }
     );
     return false; 
-      }
+      };

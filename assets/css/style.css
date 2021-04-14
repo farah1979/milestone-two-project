@@ -1069,23 +1069,6 @@ font-weight: 500;
 
 
 
-.dropdown{
-    display: none;
-  }
-
-  @media (max-width: 960px) {
-    nav #navbarNav   { display: none; }
-    .dropdown { display: inline-block; }
-  }
-
-  .navbar-toggler .icon-bar {
-    margin: 7px;
-    display: block;
-    width: 22px;
-    height: 1px;
-    background-color: #cccccc;
-    border-radius: 1px;
-  }
 
 /*---------------------------------------------------- Contact-page*/
 #contact-form{
@@ -1094,7 +1077,6 @@ font-weight: 500;
     background-size: cover;
  
 }
-
 
 
 #bg-form{
@@ -1115,9 +1097,10 @@ font-weight: 500;
 .contact-column h1{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 35px;
-    text-transform: uppercase;
+    font-size: 30px;
+   letter-spacing: 1px;
     color: #fafafa;
+    padding-left: 10px;
   
    
 }
@@ -1130,5 +1113,24 @@ font-weight: 500;
     margin: 10px;
 }
 
+.valid-feedback{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(3, 43, 3);
+    margin: 10px;
+}
+
+.invalid-feedback{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(196, 7, 7);
+    margin: 10px;
+}
+
+#signupform{
+    border-radius: 50%;
+}
 
 
