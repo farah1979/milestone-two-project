@@ -1120,24 +1120,14 @@ bottom: 0;
 
 /*---------------------------------------------------- Contact-page*/
 #contact-form{
-    min-height: calc(104vh - 283px);
+    min-height: calc(104vh - 253px);
     background: url("../image/photo-contact.jpg") no-repeat center center;
     background-size: cover;
  
 }
 
 
-#bg-form{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-top: 25px;
-    width: 100%;
-    height: 750px;
- 
-}
+
 
 .contact-column{
     margin-top: 40px ;
@@ -1158,7 +1148,7 @@ bottom: 0;
     font-weight: 500;
     font-size: 15px;
     color: #fafafa;
-    margin: 10px;
+    margin: 3px;
 }
 
 .valid-feedback{
@@ -1182,3 +1172,85 @@ bottom: 0;
 }
 
 
+/*----------------------------------------------------------answerrrrrrrrrrrrrrrr*/
+
+#answer-container{
+    
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    
+}
+
+#answer-foto{
+     height: 350px;
+    width: 1290px;
+    background: url("../image/contact-foto.jpg") no-repeat center center;
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+
+#answer{
+    width: 300px;
+    height: 80px;
+
+    background: #046aa9;;
+color: #fff;
+
+    bottom: 400px;
+    left: 3px;
+   position: absolute;
+}
+
+#answer h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #answer-foto{
+        height: 250px;
+        width: 100%;
+    }
+
+    #answer{
+        width: 200px;
+        height: 60px;
+        top: 55px;
+        
+    }
+    #answer h1{
+        font-size: 30px;
+     
+    }
+
+}
+
+.answer-title{
+    padding: 15px 0;
+    margin: 0;
+    font-family: "ROboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+#answer-form{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
