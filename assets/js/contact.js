@@ -26,6 +26,7 @@
     emailjs.send("gmail", "sweden", {
         "from_firstname": contactForm.fName.value,
         "from_lastname": contactForm.lName.value,
+        "from_username": contactForm.validationCustomUsername.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
     })

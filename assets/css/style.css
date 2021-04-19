@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*----------------------------------------- --------------------------------Stockholm-page*/
+/*----------------------------------------- --------------------------------index-page*/
 body {
     padding: 0;
     margin:  0;
@@ -1118,61 +1118,8 @@ bottom: 0;
 
 
 
-/*---------------------------------------------------- Contact-page*/
-#contact-form{
-    min-height: calc(104vh - 253px);
-    background: url("../image/photo-contact.jpg") no-repeat center center;
-    background-size: cover;
- 
-}
 
-
-
-
-.contact-column{
-    margin-top: 40px ;
-}
-.contact-column h1{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-   letter-spacing: 1px;
-    color: #fafafa;
-    padding-left: 10px;
-  
-   
-}
-
-.contact-info{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: #fafafa;
-    margin: 3px;
-}
-
-.valid-feedback{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgb(3, 43, 3);
-    margin: 10px;
-}
-
-.invalid-feedback{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgb(196, 7, 7);
-    margin: 10px;
-}
-
-#signupform{
-    border-radius: 50%;
-}
-
-
-/*----------------------------------------------------------answerrrrrrrrrrrrrrrr*/
+/*----------------------------------------------------------Contact-page*/
 
 #answer-container{
     
@@ -1185,7 +1132,7 @@ bottom: 0;
 
 #answer-foto{
      height: 350px;
-    width: 1290px;
+    width: 100%;
     background: url("../image/contact-foto.jpg") no-repeat center center;
     background-size: cover;
     opacity: 0.9;
@@ -1193,13 +1140,13 @@ bottom: 0;
 }
 
 #answer{
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
 
-    background: #046aa9;;
+    background: #046aa9;
 color: #fff;
 
-    bottom: 400px;
+    bottom: 350px;
     left: 3px;
    position: absolute;
 }
@@ -1207,7 +1154,7 @@ color: #fff;
 #answer h1{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px;
     text-align: center;
     margin: auto;
@@ -1243,7 +1190,14 @@ color: #fff;
 }
 
 
+.answer-para{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
 
+}
 
 
 #answer-form{
@@ -1253,4 +1207,39 @@ color: #fff;
     align-items: center;
     align-content: center;
     justify-content: center;
+}
+
+.form-content label{
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 15px;
+   
+   padding-top: 3px;
+}
+
+.form-content input{
+    border-radius: 10%;
+    border: 1px solid #046aa9;
+
+}
+
+
+
+.valid-feedback{
+    font-size: 15px;
+    color: rgb(35, 109, 35);
+}
+
+.invalid-feedback{
+    font-size: 15px;
+    color: rgb(212, 50, 50);
+}
+
+#signupform{
+    border-radius: 50%;
+    background-color: #046aa9;
+}
+
+#signupform:hover{
+    opacity: 0.8;
 }
