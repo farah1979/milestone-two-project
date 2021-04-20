@@ -1,445 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome-To-Sweden</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="shortcut icon" href="assets/image/flag-round-icon.png" />
-   
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
-  </head>
-<body>
-   <header>    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Welcome-To-Sweden</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+        <link rel="shortcut icon" href="assets/image/flag-round-icon.png" />
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="header" >
-      <a href="index.html">  <img src="assets/image/Flag_of_Sweden.jpg" alt="logo"  height="40"></a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" >  
-        <ul class="navbar-nav  ml-auto">
-             <li class="nav-item mr-2">
-            <a class="nav-link" href="index.html"><span class="bg-head"><i class="fa fa-home icon" aria-hidden="true"></i>Home</span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="stockholm.html"><span class="bg-head"><i class="fa fa-flag icon" aria-hidden="true"></i>Stockholm</span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="gallary.html"><span class="bg-head"><i class="fa fa-camera icon" aria-hidden="true"></i>gallary</span></a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="contact.html"><span class="bg-head"><i class="fa fa-comments icon" aria-hidden="true"></i>Contact Us</span></a>
-          </li>
-         
-        </ul>
-      </div> 
-      
-  </nav>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="header">
+                <a href="index.html"> <img src="assets/image/Flag_of_Sweden.jpg" alt="logo" height="40" /></a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="index.html">
+                                <span class="bg-head"><i class="fa fa-home icon" aria-hidden="true"></i>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="stockholm.html">
+                                <span class="bg-head"><i class="fa fa-flag icon" aria-hidden="true"></i>Stockholm</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="gallary.html">
+                                <span class="bg-head"><i class="fa fa-camera icon" aria-hidden="true"></i>gallary</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="contact.html">
+                                <span class="bg-head"><i class="fa fa-comments icon" aria-hidden="true"></i>Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-
-</header>
-
-<section  id="gallary-container">
-  <div id="gallary-foto"></div>
-  <div class="row no-gutters" id="main">
-     
-        <h1 class="col-md-12">Stockholm</h1>
-        <span class="col-md-12 main">Our capital which is built on 14 islands, with the Old Town, castles, museums and shops.</span>
-  </div>
-</section>
-<section class="container" style=" margin: auto;">
-<div class="head">
-
-<h2 class="gallary-head">Gallary</h2>
-
-<div id="myGallary">
-  <button class="btn active" onclick="onFilterSelect('all')" > Show all</button>
-  <button class="btn " onclick="onFilterSelect('nature')" id="see"> See & Do </button>
-  <button class="btn " onclick="onFilterSelect('food')"> Eat & Drink</button>
-  <button class="btn " onclick="onFilterSelect('event')"> Events</button>
-</div>
-
-
-<div class="row no-gutters">
-  <div class="column nature">
-    <div class="content">
-      <img src="assets/image/nobel-prize-museun.jpg" alt="Nobel-museum">
-      <h4>Nobel Prize Museum</h4>
-      <p>The Nobel Museum or Nobel Prize Museum is a museum about the Nobel Prize and the Nobel Laureates, 
-        located in Börshuset on Stortorget 2 in the Old Town, Stockholm, inaugurated in 2001 in connection with the
-        100th anniversary of the Nobel Prize. The boss is Erika Lanner. The museum changed its name to the Nobel Prize 
-        Museum from the Nobel Museum on January 21, 2019.</p>
-    </div>
-  </div>
-   <div class="column nature">
-    <div class="content">
-      <img src="assets/image/drottning-slott.jpg" alt="Drottning-slott">
-      <h4>Drottningholms Slott </h4>
-      <p>Drottningholm Castle is a royal castle located on Lovön in Lake Mälaren, in Ekerö municipality west of Stockholm. 
-        King Carl XVI Gustaf and Queen Silvia have had their official residence in the southern part of the castle since 1981. 
-        The castle got its name as early as 1579, during the time of Johan III. He had a stone house built for his queen Katarina.</p>
-    </div>
-  </div>
-   <div class="column nature">
-    <div class="content">
-      <img src="assets/image/djurdarden-1.jpg" alt="Djurgarden">
-      <h4>Djurgarden</h4>
-      <p>Djurgården or Södra Djurgården is an island and a district in Stockholm, 
-        and is part of the Royal National City Park. During his time as an island, Djurgården 
-        has also been called Valdemarsön. Djurgården is known for its many sights and for its nature with many old oaks. 
-        Urban buildings are located in the southwestern part.</p>
-    </div>
-  </div>
-   <div class="column nature">
-    <div class="content">
-      <img src="assets/image/abba-the-museum.jpg" alt="Abba the museum">
-      <h4>ABBA The Museum</h4>
-      <p>The Abba Museum is a privately owned permanent exhibition about the Swedish music group Abba located in 
-        the Konsthallen district at Djurgårdsvägen 68 on Djurgården in Stockholm. The Abba Museum is located within 
-        the Royal National City Park. Until 2017, it also shared the building and entrance with the museum for the music 
-        initiative Swedish Music Hall of Fame. </p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="assets/image/grönalund.jpg" alt="Grönalund" >
-      <h4>Gröna Lund</h4>
-      <p>Gröna Lund, also known as Grönan, is an amusement park located on Djurgården, Stockholm, 
-        with the main entrance from Allmänna gränd. Gröna Lund is located within the Royal National City Park. 
-        In the park there are about thirty rides, including 7 roller coasters, haunted houses, most games and wheel of fortune, 
-        snacks and fast food kiosks as well as restaurants and bars. There are also two stages and a dance floor and annually 
-        over 60 concerts and also many dance evenings are held.</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="assets/image/kungligaslottet.jpg" alt="Kungliga slott" >
-      <h4>Kungliga slottet</h4>
-      <p>Stockholm Castle, officially the Royal Palace, has been located on the same site by Norrström on northeastern 
-        Stadsholmen in Stockholm since the latter half of the 13th century. Its first-century history belongs to the medieval 
-        castle complex Tre Kronor. In modern times, the term refers to the building called the Royal Palace, one of the royal 
-        castles in the country located in the Old Town district of Stockholm.</p>
-    </div>
-  </div>
-  
-  <div class="column nature">
-    <div class="content">
-      <img src="assets/image/skansen.jpg" alt="skansen" >
-      <h4>Skansen</h4>
-      <p>Skansen is a foundation-owned Swedish open-air museum with a zoo on Djurgården in Stockholm, 
-        founded by Artur Hazelius, and is located within the Royal National City Park. The fort was inaugurated on October 11, 
-        1891. The name comes from the fort that Karl XIV Johan had built for his son Oscar I to be used as a playground, 
-        this fort was next to the current Håsjö pillar.</p>
-    </div>
-  </div>
-  
-  <div class="column nature">
-    <div class="content">
-      <img src="assets/image/stadhus.jpg" alt="Stockholm-stadhuset">
-      <h4>Stockholms stadshus</h4>
-      <p>Stockholm City Hall is located on the old fire station site at Hantverkargatan 1 on Kungsholmen in central Stockholm. 
-        Stockholm City Council decided in 1908 to have a municipal building with a party floor built on this plot towards Lake 
-        Mälaren, after an earlier proposal for a new town hall with town hall rights did not materialize. Architect Ragnar 
-        Östberg was commissioned to design the lavish building.</p>
-    </div>
-  </div>
-  
-  <div class="column food">
-    <div class="content">
-      <img src="assets/image/karlek.jpg" alt="Tapas 28" >
-      <h4>Tapas 28</h4>
-      <p>Tapas are a perfect way to socialize with loved ones while enjoying different types of food. We offer small 
-        dishes taken from all corners of the globe to create as varied and exciting a tapas menu as possible, completely 
-        unique to our restaurant. Come here and be immersed in the cozy atmosphere and the delicious food. With us, 
-        we want each guest to feel comfortable in their own living room and we believe that you will feel comfortable.</p>
-    </div>
-  </div>
-  
-  <div class="column food">
-    <div class="content">
-      <img src="assets/image/spisa.jpg" alt="Car" >
-      <h4>Spisa hos Helena</h4>
-      <p>229 / 5000
-        Översättningsresultat
-        On Scheelegatan on Kungsholmen in Stockholm, not far from Fridhemsplan, is the restaurant and neighborhood 
-        restaurant Spisa at Helena, which serves Swedish home cooking with Mediterranean inspiration in the same room where 
-        it was started as early as 1996. </p>
-    </div>
-  </div>
-  
-  <div class="column food">
-    <div class="content">
-      <img src="assets/image/oyster-bar.jpg" alt="oyster-bar">
-      <h4>Oyster Bar</h4>
-      <p>Some of Stockholm's most delicious seafood platters are probably served at the Östermalm-based restaurant Oyster Bar.
-         Here you can taste all the seafood from the sea together with a large selection of champagne and wine varieties. For 
-         those who want to enjoy at home, there is also the opportunity to pick up.</p>
-    </div>
-  </div>
-  <div class="column food">
-    <div class="content">
-    <img src="assets/image/waipo.jpg" alt="waipo-resturant" >
-      <h4>Waipo Stockholmd</h4>
-      <p>Genuine food from China's dominant food provinces and modern service in the form of iPads built into the tables. 
-        Restaurant Waipo in Mood Gallerian in central Stockholm preserves ancient food traditions in a high-tech environment 
-        and serves lots of small dishes that can be shared in a family way or eaten individually both as lunch or whole tasting 
-        menus. Waipo Stockholm was named Sweden's best Chinese restaurant in 2013 by the Asian Curry Awards.</p>
-    </div>
-  </div>
-  <div class="column food">
-    <div class="content">
-    <img src="assets/image/ardbey.jpg" alt="Ardbeg Embassy">
-      <h4>Ardbeg Embassy</h4>
-      <p>Ardbeg Embassy is located in the Old Town and has a unique restaurant concept rooted in Scotch malt whiskey and
-         Swedish microbreweries on tap. In 2015, Ardbeg Embassy was named Sweden's best whiskey restaurant according to the
-        Swedish Whiskey Association, and is also the only restaurant in the world that serves Scotch whiskey directly on tap.</p>
-    </div>
-  </div>
-
-  <div class="column food">
-    <div class="content">
-      <img src="assets/image/ostgotakallaren.jpg" alt="Östgötakällaren">
-      <h4>Östgötakällaren</h4>
-      <p>Östgötakällaren has been at the same address since 1986, Östgötagatan 41 in Stockholm. 
-        When you step inside the door, it is like traveling back to a bygone era, an era in Södermalm's history that has been 
-        left untouched. Here you can leave everyday stress outside to relax in a warm atmosphere. If it's a 
-        tribal hook you've been missing, Östgötakällaren is as close to "Cheers" as you can get!</p>
-    </div>
-  </div>
-   <div class="column food">
-    <div class="content">
-      <img src="assets/image/Cafe-Colette.jpg" alt="Cafe Colette">
-      <h4>Cafe Colette</h4>
-      <p>Café Colette in Stockholm is a place where you can enjoy traditional French bistro food in a 
-        genuine and homely atmosphere. Think white walls, small wooden tables and a lovely buzz from the diners.</p>
-    </div>
-  </div>
-   <div class="column food">
-    <div class="content">
-      <img src="assets/image/Elies-kök-bar.jpg" alt="Elies kök & bar">
-      <h4>Elies kök & bar</h4>
-      <p>Right next to the Stora Blecktornsparken on Södermalm in Stockholm, the restaurant Elies kök & bar has its seat. 
-        This homely neighborhood restaurant serves a plethora of Lebanese cuisine. During warmer seasons, it is also possible 
-        to study the pulsating life of the people with a glass of beer or wine at Elie's cozy outdoor terrace.</p>
-    </div>
-  </div>
-   <div class="column food">
-    <div class="content">
-      <img src="assets/image/Man-in-the-Moon.jpg" alt="Man in the Moon" >
-      <h4>Girl</h4>
-      <p>With its 30 beer taps, the gastropub Man in the Moon on Norrmalm has become number one on the list of international 
-        beer restaurant lists, and has also received the award Best Beer Restaurant in Sweden 5 years in a row. There are 650 
-        beers to enjoy.</p>
-    </div>
-  </div>
-   <div class="column event">
-    <div class="content">
-      <img src="assets/image/Sup__Samlevnad_Skinnarviksberget.jpg" alt="Sup & Cohabitation">
-      <h4>Sup & Cohabitation</h4>
-      <p>For several centuries, famous artists and award-winning authors have lived on Södermalm, not least in the area 
-        around Mariaberget. What really attracted them to Söder's high altitudes? Both books, songs and songs testify that 
-        Södermalm is a place for cold, old wooden houses. On the one hand, the streets are full of beer beggars and rat 
-        exterminators, on the other hand, there are showy backyards and beautiful views almost everywhere.<br>
-        <strong>All dates <br>
-          17 APR - 27 NOV 2021</strong>
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Spokvandring_ny.jpg" alt="Ghost walk in the Old Town" >
-      <h4>Ghost walk in the Old Town</h4>
-      <p>Our ghost walk contains much of Stockholm's history and then of course about its legends. 
-        Follow our guide on an approximately 90 minute entertainment where you will hear about murder, 
-        mass murder, diseases and of course ghosts. You will also get to see, feel, smell and taste the history.<br>
-        <strong>All dates <br>
-          9 APR — 30 SEP 2021</strong>
-        </p>
-
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Operan-Play-1.jpg" alt="opera" >
-      <h4>Operan Play</h4>
-      <p>Follow behind the scenes in the documentary series "Life at the Opera" or sit in front of a ballet, 
-        opera or concert whenever and wherever you want. The Royal Opera's digital channel does not require a 
-        login or fees. New performances are published regularly.<br>
-        <strong>All dates <br>
-          8 APR — 31 DEC 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Konserthuset-Play-1.jpg" alt="Konserthuset Play" >
-      <h4>Konserthuset Play</h4>
-      <p>Listen for free to music from the Concert Hall - whenever and wherever you want. World-class concerts with the 
-        Royal Philharmonic Orchestra, films for children and much more. Completely free, without login.<br>
-        <strong>All dates <br>
-          8 APR — 31 DEC 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Barnaktiviteter-1.jpg" alt="childactivites" >
-      <h4>Children's activities at Waldemarsudde</h4>
-      <p>At Waldemarsudde there is a lot to do for the younger visitors. Here you can visit the John Bauer 
-        exhibition with audio guide and listen to fairy tales, or go on a treasure hunt through the garden. 
-        In the castle's dormitory there is also a tricky special track where you can become an art detective! 
-        Waldemarsudde is open and follows FHM's guidelines in order to offer its visitors a safe visit. Children 
-        and young people up to the age of 18 have free admission.<br>
-        <strong>All dates <br>
-          8 APR — 30 JUN 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/vin-1.jpg" alt="vin" >
-      <h4>Vin</h4>
-      <p>That Sweden would become a wine-producing country could be believed 20 years ago. 
-        But Swedish wine growers have today proven that it is certainly possible to make wines of high quality and 
-        with their own character in Sweden. In the exhibition, we tell about what the wine country Sweden looks like today 
-        together with nostalgic flashbacks and a unique bottle collection. We take a look at the Swedish modern wine history, 
-        how wine production takes place and show a cavalcade of Swedish wines from the museum's large collection.<br>
-        <strong>All dates <br>
-          8 APR — 31 OKT 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Doctor-Glass-1.jpg" alt="Doctor Glass - a sound walk through Stockholm" >
-      <h4>Doctor Glass - a sound walk through Stockholm</h4>
-      <p>Doctor Glass, played by Krister Henriksson, leads the listener between the various Stockholm addresses 
-        where Söderberg's love and murder drama takes place. From Bondeska palace in the Old Town, via the murder 
-        scene in Kungsträdgården and finally to the reception at Klara Kyrka. With an app where the sound is brought 
-        to life, the audience can walk through the streets of Stockholm and experience the text as if it were told for 
-        the first time. Map is available in the app. Bring a fully charged mobile phone, headphones and comfortable shoes.
-         Until January 6, the tour is free with the code HOLIDAYS.<br>
-        <strong>All dates <br>
-          8 APR — 16 SEP 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Stockholm-bridges.jpg" alt="Under Stockholm's bridges" >
-      <h4>Under Stockholm's bridges</h4>
-      <p>Under Stockholm's bridges is the complete boat sightseeing tour for you who want to see the whole of Stockholm 
-        from a new side! Get on board and take part in Stockholm's most famous areas, sights and buildings from the water.<br>
-        <strong>All dates <br>
-          8 APR — 19 DEC 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-  <div class="column event">
-    <div class="content">
-    <img src="assets/image/Guidad-joggingtur-1.jpg" alt="Guided jogging tour" >
-      <h4>Guided jogging tour</h4>
-      <p>Stockholm is a fantastic city to jog in. During this English-language tour, you get exercise 
-        while you get to learn about the city's history..<br>
-        <strong>All dates <br>
-          8 APR — 31 DEC 2021</strong>
-      
-      </p>
-    </div>
-  </div>
-
-</div>
-
-</div>
-
-
-</section>
-
-
- <footer class="container-fluid bg-footer">
-     <div class="row no-gutters">
-         <div class="col-md-4 ">
-          <a href="#">  <img src="assets/image/logo.png" height="100" width="150" alt="Logo"></a> 
-            
-         </div>
-         <div class="col-md-4">
-            
-
-                 <h3 class="foot-link">Links</h3>
-            <a href="https://press.visitsweden.com/" target="_blank"> <h3 class="foot-info">Press room | </h3></a>
-            <a href="https://visitsweden.com/sweden-for-travel-professionals/" target="_blank"> <h3 class="foot-info">Sweden for travel professionals</h3> </a>
-            <a href="https://corporate.visitsweden.com/" target="_blank"> <h3 class="foot-info"> | Corporate</h3> </a>
-            
-         </div>
-         <div class="col-md-4">
-
-          <h3 class="foot-link">Social</h3>
-          <ul class="list-inline social-links">
-              <li class="list-inline-item"> <a target="_blank" href="https://www.facebook.com/visitstockholm"> <i class="fa fa-facebook" aria-hidden="true"></i>
-                      <span class="sr-only">Facebook</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://twitter.com/visitstockholm">
-                      <i class="fa fa-twitter" aria-hidden="true"></i>
-                      <span class="sr-only">Twitter</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.linkedin.com/company/visitstockholm/">
-                      <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      <span class="sr-only">LinkedIn</span>
-                  </a>
-              </li>
-             
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/visitstockholm/">
-                      <i class="fa fa-instagram" aria-hidden="true"></i>
-                      <span class="sr-only">Instagram</span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.youtube.com/channel/UC7-AfAX_aDvwmFy4sg4h3GQ">
-                      <i class="fa fa-youtube" aria-hidden="true"></i>
-                      <span class="sr-only">YouTube</span>
-                  </a>
-              </li>
-                </ul>
+        <section id="gallary-container">
+            <div id="gallary-foto"></div>
+            <div class="row no-gutters" id="main">
+                <h1 class="col-md-12">Stockholm</h1>
+                <span class="col-md-12 main">Our capital which is built on 14 islands, with the Old Town, castles, museums and shops.</span>
             </div>
-        </div>            
-       
-    </footer>
+        </section>
+        <section class="container" style="margin: auto;">
+            <div class="head">
+                <h2 class="gallary-head">Gallary</h2>
 
+                <div id="myGallary">
+                    <button class="btn active" onclick="onFilterSelect('all')">Show all</button>
+                    <button class="btn" onclick="onFilterSelect('nature')" id="see">See & Do</button>
+                    <button class="btn" onclick="onFilterSelect('food')">Eat & Drink</button>
+                    <button class="btn" onclick="onFilterSelect('event')">Events</button>
+                </div>
 
+                <div class="row no-gutters">
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/nobel-prize-museun.jpg" alt="Nobel-museum" />
+                            <h4>Nobel Prize Museum</h4>
+                            <p>
+                                The Nobel Museum or Nobel Prize Museum is a museum about the Nobel Prize and the Nobel Laureates, located in Börshuset on Stortorget 2 in the Old Town, Stockholm, inaugurated in 2001 in connection with the
+                                100th anniversary of the Nobel Prize. The boss is Erika Lanner. The museum changed its name to the Nobel Prize Museum from the Nobel Museum on January 21, 2019.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/drottning-slott.jpg" alt="Drottning-slott" />
+                            <h4>Drottningholms Slott</h4>
+                            <p>
+                                Drottningholm Castle is a royal castle located on Lovön in Lake Mälaren, in Ekerö municipality west of Stockholm. King Carl XVI Gustaf and Queen Silvia have had their official residence in the southern part
+                                of the castle since 1981. The castle got its name as early as 1579, during the time of Johan III. He had a stone house built for his queen Katarina.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/djurdarden-1.jpg" alt="Djurgarden" />
+                            <h4>Djurgarden</h4>
+                            <p>
+                                Djurgården or Södra Djurgården is an island and a district in Stockholm, and is part of the Royal National City Park. During his time as an island, Djurgården has also been called Valdemarsön. Djurgården is
+                                known for its many sights and for its nature with many old oaks. Urban buildings are located in the southwestern part.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/abba-the-museum.jpg" alt="Abba the museum" />
+                            <h4>ABBA The Museum</h4>
+                            <p>
+                                The Abba Museum is a privately owned permanent exhibition about the Swedish music group Abba located in the Konsthallen district at Djurgårdsvägen 68 on Djurgården in Stockholm. The Abba Museum is located
+                                within the Royal National City Park. Until 2017, it also shared the building and entrance with the museum for the music initiative Swedish Music Hall of Fame.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/grönalund.jpg" alt="Grönalund" />
+                            <h4>Gröna Lund</h4>
+                            <p>
+                                Gröna Lund, also known as Grönan, is an amusement park located on Djurgården, Stockholm, with the main entrance from Allmänna gränd. Gröna Lund is located within the Royal National City Park. In the park
+                                there are about thirty rides, including 7 roller coasters, haunted houses, most games and wheel of fortune, snacks and fast food kiosks as well as restaurants and bars. There are also two stages and a dance
+                                floor and annually over 60 concerts and also many dance evenings are held.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/kungligaslottet.jpg" alt="Kungliga slott" />
+                            <h4>Kungliga slottet</h4>
+                            <p>
+                                Stockholm Castle, officially the Royal Palace, has been located on the same site by Norrström on northeastern Stadsholmen in Stockholm since the latter half of the 13th century. Its first-century history
+                                belongs to the medieval castle complex Tre Kronor. In modern times, the term refers to the building called the Royal Palace, one of the royal castles in the country located in the Old Town district of
+                                Stockholm.
+                            </p>
+                        </div>
+                    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-       
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/skansen.jpg" alt="skansen" />
+                            <h4>Skansen</h4>
+                            <p>
+                                Skansen is a foundation-owned Swedish open-air museum with a zoo on Djurgården in Stockholm, founded by Artur Hazelius, and is located within the Royal National City Park. The fort was inaugurated on October
+                                11, 1891. The name comes from the fort that Karl XIV Johan had built for his son Oscar I to be used as a playground, this fort was next to the current Håsjö pillar.
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="column nature">
+                        <div class="content">
+                            <img src="assets/image/stadhus.jpg" alt="Stockholm-stadhuset" />
+                            <h4>Stockholms stadshus</h4>
+                            <p>
+                                Stockholm City Hall is located on the old fire station site at Hantverkargatan 1 on Kungsholmen in central Stockholm. Stockholm City Council decided in 1908 to have a municipal building with a party floor
+                                built on this plot towards Lake Mälaren, after an earlier proposal for a new town hall with town hall rights did not materialize. Architect Ragnar Östberg was commissioned to design the lavish building.
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/karlek.jpg" alt="Tapas 28" />
+                            <h4>Tapas 28</h4>
+                            <p>
+                                Tapas are a perfect way to socialize with loved ones while enjoying different types of food. We offer small dishes taken from all corners of the globe to create as varied and exciting a tapas menu as
+                                possible, completely unique to our restaurant. Come here and be immersed in the cozy atmosphere and the delicious food. With us, we want each guest to feel comfortable in their own living room and we believe
+                                that you will feel comfortable.
+                            </p>
+                        </div>
+                    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/spisa.jpg" alt="Car" />
+                            <h4>Spisa hos Helena</h4>
+                            <p>
+                                229 / 5000 Översättningsresultat On Scheelegatan on Kungsholmen in Stockholm, not far from Fridhemsplan, is the restaurant and neighborhood restaurant Spisa at Helena, which serves Swedish home cooking with
+                                Mediterranean inspiration in the same room where it was started as early as 1996.
+                            </p>
+                        </div>
+                    </div>
 
-       
-<script src="https://code.jquery.com/jquery-3.6.0.js"
-integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/oyster-bar.jpg" alt="oyster-bar" />
+                            <h4>Oyster Bar</h4>
+                            <p>
+                                Some of Stockholm's most delicious seafood platters are probably served at the Östermalm-based restaurant Oyster Bar. Here you can taste all the seafood from the sea together with a large selection of
+                                champagne and wine varieties. For those who want to enjoy at home, there is also the opportunity to pick up.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/waipo.jpg" alt="waipo-resturant" />
+                            <h4>Waipo Stockholmd</h4>
+                            <p>
+                                Genuine food from China's dominant food provinces and modern service in the form of iPads built into the tables. Restaurant Waipo in Mood Gallerian in central Stockholm preserves ancient food traditions in a
+                                high-tech environment and serves lots of small dishes that can be shared in a family way or eaten individually both as lunch or whole tasting menus. Waipo Stockholm was named Sweden's best Chinese restaurant
+                                in 2013 by the Asian Curry Awards.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/ardbey.jpg" alt="Ardbeg Embassy" />
+                            <h4>Ardbeg Embassy</h4>
+                            <p>
+                                Ardbeg Embassy is located in the Old Town and has a unique restaurant concept rooted in Scotch malt whiskey and Swedish microbreweries on tap. In 2015, Ardbeg Embassy was named Sweden's best whiskey
+                                restaurant according to the Swedish Whiskey Association, and is also the only restaurant in the world that serves Scotch whiskey directly on tap.
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/ostgotakallaren.jpg" alt="Östgötakällaren" />
+                            <h4>Östgötakällaren</h4>
+                            <p>
+                                Östgötakällaren has been at the same address since 1986, Östgötagatan 41 in Stockholm. When you step inside the door, it is like traveling back to a bygone era, an era in Södermalm's history that has been
+                                left untouched. Here you can leave everyday stress outside to relax in a warm atmosphere. If it's a tribal hook you've been missing, Östgötakällaren is as close to "Cheers" as you can get!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/Cafe-Colette.jpg" alt="Cafe Colette" />
+                            <h4>Cafe Colette</h4>
+                            <p>Café Colette in Stockholm is a place where you can enjoy traditional French bistro food in a genuine and homely atmosphere. Think white walls, small wooden tables and a lovely buzz from the diners.</p>
+                        </div>
+                    </div>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/Elies-kök-bar.jpg" alt="Elies kök & bar" />
+                            <h4>Elies kök & bar</h4>
+                            <p>
+                                Right next to the Stora Blecktornsparken on Södermalm in Stockholm, the restaurant Elies kök & bar has its seat. This homely neighborhood restaurant serves a plethora of Lebanese cuisine. During warmer
+                                seasons, it is also possible to study the pulsating life of the people with a glass of beer or wine at Elie's cozy outdoor terrace.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column food">
+                        <div class="content">
+                            <img src="assets/image/Man-in-the-Moon.jpg" alt="Man in the Moon" />
+                            <h4>Girl</h4>
+                            <p>
+                                With its 30 beer taps, the gastropub Man in the Moon on Norrmalm has become number one on the list of international beer restaurant lists, and has also received the award Best Beer Restaurant in Sweden 5
+                                years in a row. There are 650 beers to enjoy.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Sup__Samlevnad_Skinnarviksberget.jpg" alt="Sup & Cohabitation" />
+                            <h4>Sup & Cohabitation</h4>
+                            <p>
+                                For several centuries, famous artists and award-winning authors have lived on Södermalm, not least in the area around Mariaberget. What really attracted them to Söder's high altitudes? Both books, songs and
+                                songs testify that Södermalm is a place for cold, old wooden houses. On the one hand, the streets are full of beer beggars and rat exterminators, on the other hand, there are showy backyards and beautiful
+                                views almost everywhere.<br />
+                                <strong>
+                                    All dates <br />
+                                    17 APR - 27 NOV 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Spokvandring_ny.jpg" alt="Ghost walk in the Old Town" />
+                            <h4>Ghost walk in the Old Town</h4>
+                            <p>
+                                Our ghost walk contains much of Stockholm's history and then of course about its legends. Follow our guide on an approximately 90 minute entertainment where you will hear about murder, mass murder, diseases
+                                and of course ghosts. You will also get to see, feel, smell and taste the history.<br />
+                                <strong>
+                                    All dates <br />
+                                    9 APR — 30 SEP 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Operan-Play-1.jpg" alt="opera" />
+                            <h4>Operan Play</h4>
+                            <p>
+                                Follow behind the scenes in the documentary series "Life at the Opera" or sit in front of a ballet, opera or concert whenever and wherever you want. The Royal Opera's digital channel does not require a login
+                                or fees. New performances are published regularly.<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 31 DEC 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Konserthuset-Play-1.jpg" alt="Konserthuset Play" />
+                            <h4>Konserthuset Play</h4>
+                            <p>
+                                Listen for free to music from the Concert Hall - whenever and wherever you want. World-class concerts with the Royal Philharmonic Orchestra, films for children and much more. Completely free, without login.
+                                <br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 31 DEC 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Barnaktiviteter-1.jpg" alt="childactivites" />
+                            <h4>Children's activities at Waldemarsudde</h4>
+                            <p>
+                                At Waldemarsudde there is a lot to do for the younger visitors. Here you can visit the John Bauer exhibition with audio guide and listen to fairy tales, or go on a treasure hunt through the garden. In the
+                                castle's dormitory there is also a tricky special track where you can become an art detective! Waldemarsudde is open and follows FHM's guidelines in order to offer its visitors a safe visit. Children and
+                                young people up to the age of 18 have free admission.<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 30 JUN 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/vin-1.jpg" alt="vin" />
+                            <h4>Vin</h4>
+                            <p>
+                                That Sweden would become a wine-producing country could be believed 20 years ago. But Swedish wine growers have today proven that it is certainly possible to make wines of high quality and with their own
+                                character in Sweden. In the exhibition, we tell about what the wine country Sweden looks like today together with nostalgic flashbacks and a unique bottle collection. We take a look at the Swedish modern wine
+                                history, how wine production takes place and show a cavalcade of Swedish wines from the museum's large collection.<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 31 OKT 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Doctor-Glass-1.jpg" alt="Doctor Glass - a sound walk through Stockholm" />
+                            <h4>Doctor Glass - a sound walk through Stockholm</h4>
+                            <p>
+                                Doctor Glass, played by Krister Henriksson, leads the listener between the various Stockholm addresses where Söderberg's love and murder drama takes place. From Bondeska palace in the Old Town, via the murder
+                                scene in Kungsträdgården and finally to the reception at Klara Kyrka. With an app where the sound is brought to life, the audience can walk through the streets of Stockholm and experience the text as if it
+                                were told for the first time. Map is available in the app. Bring a fully charged mobile phone, headphones and comfortable shoes. Until January 6, the tour is free with the code HOLIDAYS.<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 16 SEP 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Stockholm-bridges.jpg" alt="Under Stockholm's bridges" />
+                            <h4>Under Stockholm's bridges</h4>
+                            <p>
+                                Under Stockholm's bridges is the complete boat sightseeing tour for you who want to see the whole of Stockholm from a new side! Get on board and take part in Stockholm's most famous areas, sights and
+                                buildings from the water.<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 19 DEC 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column event">
+                        <div class="content">
+                            <img src="assets/image/Guidad-joggingtur-1.jpg" alt="Guided jogging tour" />
+                            <h4>Guided jogging tour</h4>
+                            <p>
+                                Stockholm is a fantastic city to jog in. During this English-language tour, you get exercise while you get to learn about the city's history..<br />
+                                <strong>
+                                    All dates <br />
+                                    8 APR — 31 DEC 2021
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <footer class="container-fluid bg-footer">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <a href="#"> <img src="assets/image/logo.png" height="100" width="150" alt="Logo" /></a>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="foot-link">Links</h3>
+                    <a href="https://press.visitsweden.com/" target="_blank"> <h3 class="foot-info">Press room |</h3></a>
+                    <a href="https://visitsweden.com/sweden-for-travel-professionals/" target="_blank"> <h3 class="foot-info">Sweden for travel professionals</h3> </a>
+                    <a href="https://corporate.visitsweden.com/" target="_blank"> <h3 class="foot-info">| Corporate</h3> </a>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="foot-link">Social</h3>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/visitstockholm">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/visitstockholm">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.linkedin.com/company/visitstockholm/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
 
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/visitstockholm/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/channel/UC7-AfAX_aDvwmFy4sg4h3GQ">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
-    
-    <script src="assets/js/gallary.js" type="text/javascript" ></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+        <script src="assets/js/gallary.js" type="text/javascript"></script>
+    </body>
 </html>

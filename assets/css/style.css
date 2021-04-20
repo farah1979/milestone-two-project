@@ -1,80 +1,67 @@
 /*---------------------------------Font Style*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 /*----------------------------------------- --------------------------------index-page*/
 body {
     padding: 0;
-    margin:  0;
+    margin: 0;
+}
 
-  }
-
- 
 #header {
- 
-  position: fixed; 
-  top: 0;
-  width: 100%; 
-  transition: 0.2s;
-  z-index: 2;
-  font-size: 10px;
-  margin: 0;
-
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    z-index: 2;
+    font-size: 10px;
+    margin: 0;
 }
 
 .scroll {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
-  .scroll + .head {
-    padding-top: 102px;
-  }
-
-  #navbarNavDropdown   ul{
-  text-align: center ;
 }
 
-.bg-head{
+.scroll + .head {
+    padding-top: 102px;
+}
+
+#navbarNavDropdown ul {
+    text-align: center;
+}
+
+.bg-head {
     color: #fafafa;
-    font-family: "roboto" , sans-serif;
+    font-family: "roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
     text-transform: uppercase;
     padding: 5px;
     margin: 0;
-   
-  
 }
 
-.bg-head:hover{
+.bg-head:hover {
     text-decoration: underline;
     font-size: 16px;
-   
 }
 
-
-.icon{
+.icon {
     margin: 0%;
     padding: 10px;
     font-size: 25px;
+}
 
-    }
-
-
-#sweden{
+#sweden {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
 
-#sweden-image{
-     height: 500px;
+#sweden-image {
+    height: 500px;
     width: 100%;
     background: url("https://www.visitstockholm.se/media/images/City_Hall_DSC08361_Bjorn_Olin_3.max-1200x630.jpg") no-repeat center center;
     background-size: cover;
@@ -84,16 +71,16 @@ body {
 }
 
 @keyframes sweden-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.1);
     }
 }
 
-#data{
-     width: 200px;
+#data {
+    width: 200px;
     height: 50px;
 
     padding-top: 10px;
@@ -105,7 +92,7 @@ body {
     position: absolute;
 }
 
-#data a{
+#data a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -113,38 +100,28 @@ body {
     padding: 5px;
 }
 
-
-
-.fa-youtube-play{
+.fa-youtube-play {
     font-size: 35px;
     color: #f00;
     margin: 0;
     padding-right: 10px;
-   
-    
-    
 }
 
-.open-film{
-    font-family: "roboto",sans-serif;
+.open-film {
+    font-family: "roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: black;
-    
-    
 }
 
 @media only screen and (max-width: 576px) {
-   
-   #sweden{
-       height: 400px;
-   }
-  
-
+    #sweden {
+        height: 400px;
+    }
 }
 
-#wel-to-swed{
-    font-family: "Roboto" , sans-serif;
+#wel-to-swed {
+    font-family: "Roboto", sans-serif;
     font-size: 25px;
     font-weight: 700;
     color: #000;
@@ -156,36 +133,34 @@ body {
 }
 
 .guid-image {
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
     padding: 5%;
-  
 }
 
-.guid-image img{
+.guid-image img {
     margin: 0;
     padding-bottom: 10px;
     height: 250px;
     width: 250px;
     border-radius: 250px;
-   
 }
 
-.guid-image li{
+.guid-image li {
     border: none;
 }
 
-.info-list{
+.info-list {
     text-align: center;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 30px;
 }
 
-.image-img{
+.image-img {
     font-size: 20px;
     padding: 0;
     margin: 0;
@@ -193,40 +168,33 @@ body {
     width: 20px;
 }
 
-.swed{
-    font-family: "Roboto",sans-serif;
+.swed {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
 
-
-#edjucationInfo , .edjucationInfo{
-    
-    color:#000;
+#edjucationInfo,
+.edjucationInfo {
+    color: #000;
     margin: 0;
     padding-top: 5px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 30px;
-    
+
     text-transform: uppercase;
-   
-    
 }
 
-
-@media only screen and (max-width: 576px){
-
-
-    #edjucationTable{
+@media only screen and (max-width: 576px) {
+    #edjucationTable {
         overflow: scroll;
+    }
 }
 
-}
-
-.parOne{
+.parOne {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -237,9 +205,9 @@ body {
     padding: 5px;
 }
 
-.partwo{
+.partwo {
     font-family: "Roboto", sans-serif;
-    font-weight: 400 ;
+    font-weight: 400;
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 25px;
@@ -248,9 +216,7 @@ body {
     padding: 10px;
 }
 
-
-
-.headList_0{
+.headList_0 {
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -262,7 +228,7 @@ body {
     padding-left: 5px;
 }
 
-.headList_1{
+.headList_1 {
     font-family: "roboto", sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -274,129 +240,109 @@ body {
     line-height: 2;
     text-decoration: none;
     color: #000;
-    
-
 }
 
-.headList_1 a{
+.headList_1 a {
     text-decoration: none;
     color: #000;
 }
 
-#list-img{
+#list-img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
     margin-left: 20px;
-
 }
 
-
-#list-img img{
-
-   height: 250px;
-   width: 250px;
+#list-img img {
+    height: 250px;
+    width: 250px;
     margin: 10px;
-     border: 1px solid #3f4144;
-     
+    border: 1px solid #3f4144;
 }
 
 @media only screen and (max-width: 576px) {
-   
-   #list-img img{
-      
-      width: 150px;
-      height: 150px;
-   }
+    #list-img img {
+        width: 150px;
+        height: 150px;
+    }
 
-   #list-img{
-       margin: auto;
-   }
+    #list-img {
+        margin: auto;
+    }
 }
 
-#educationList{
+#educationList {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    
 }
 
-#educationList img{
+#educationList img {
     height: 300px;
     width: 300px;
-     margin-top: 15%;
-      border: 1px solid #3f4144;
+    margin-top: 15%;
+    border: 1px solid #3f4144;
 }
 
 @media only screen and (max-width: 576px) {
-   
-    #educationList img{
-       margin: auto;
-       height: 150px;
-    width: 150px;
-
+    #educationList img {
+        margin: auto;
+        height: 150px;
+        width: 150px;
     }
- }
+}
 
-.tableForm{
+.tableForm {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 15px;
     color: #343a40;
     padding: 0;
     margin: 0;
-    
-    
 }
 
-
-
-.in-image{
+.in-image {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-  margin: 0%;
+    margin: 0%;
     padding: 0;
 }
 
-.table-img{
+.table-img {
     height: 200px;
     width: 250px;
     display: block;
     margin: 50px;
-    
+
     border: 1px solid #3f4144;
-    
 }
 
-.table-img-two{
+.table-img-two {
     height: 200px;
     width: 250px;
     display: block;
     margin: 10px;
-    
+
     border: 1px solid #3f4144;
-
 }
-
 
 @media only screen and (max-width: 576px) {
-   
-   .table-img{
-      height: 200px;
-      width: 200px;
-   }
-
+    .table-img {
+        height: 200px;
+        width: 200px;
+    }
 }
 
-.tr-sweden{
-    font-family: "Roboto" ,sans-serif;
+.tr-sweden {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     background-color: #fff;
     border-radius: 10px;
@@ -409,68 +355,55 @@ body {
     overflow: hidden;
     margin-bottom: 16px;
     text-transform: uppercase;
-    
-       
-       
-        font-size: 15px;
-        color: #000;
-        text-decoration: none;
-        text-align: center;
-    padding-top: 8px; 
 
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
 }
 .hvr-sweep-to-right:before {
     background-color: rgb(173, 32, 114);
-   -webkit-transition: all 1500ms ease;
--moz-transition: all 1500ms ease;
--ms-transition: all 1500ms ease;
--o-transition: all 1500ms ease;
-transition: all 1500ms ease;
-    
+    -webkit-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    transition: all 1500ms ease;
 }
 
-.fa-lg{
+.fa-lg {
     color: rgb(173, 32, 114);
     margin-right: 10px;
-
 }
 
-#tourism , #history{
+#tourism,
+#history {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 35px;
-    
-    text-transform: uppercase;
-   
-    padding-top: 15px;
 
+    text-transform: uppercase;
+
+    padding-top: 15px;
 }
-.tr-po{
-    
-     display: flex;
+.tr-po {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 10px;
-
 }
-
-
-
 
 /*---------------------------------------------Footer*/
 
-
-
-
-.bg-footer{
+.bg-footer {
     background: #fecd00;
     min-height: 150px;
 }
 
-.foot-info{
+.foot-info {
     display: inline-block;
     margin-right: 2px;
     margin-top: 25px;
@@ -480,11 +413,10 @@ transition: all 1500ms ease;
     font-size: 18px;
     color: #006aa9;
     text-transform: capitalize;
-
 }
 
-.foot-link{
-     display: block;
+.foot-link {
+    display: block;
     margin-right: 5px;
     margin-top: 15px;
     margin-left: 5px;
@@ -496,13 +428,12 @@ transition: all 1500ms ease;
     text-align: center;
 }
 
-.bg-footer img{
+.bg-footer img {
     margin: 20px;
-    
 }
 
-.social-links{
-     display: flex;
+.social-links {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -511,7 +442,7 @@ transition: all 1500ms ease;
     margin-top: 10px;
 }
 
-.social-links i{
+.social-links i {
     font-size: 20px;
     margin: 0;
     padding: 10px;
@@ -525,16 +456,15 @@ transition: all 1500ms ease;
 
 /*-------------------------------------------------------------Stockholm-page*/
 
-#stockholm{
+#stockholm {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
 
-#stockholm-image{
-     height: 500px;
+#stockholm-image {
+    height: 500px;
     width: 100%;
     background: url("../image/visit-stockholm.jpg") no-repeat center center;
     background-size: cover;
@@ -544,79 +474,67 @@ transition: all 1500ms ease;
 }
 
 @keyframes stockholm-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.2);
     }
 }
 
-
-@media only screen and (max-width: 576px){
-    #stockholm, #stockholm-image{
+@media only screen and (max-width: 576px) {
+    #stockholm,
+    #stockholm-image {
         height: 400px;
     }
 }
 
-.carousel-caption{
-background-color: rgba(0, 0, 0, 0.5); 
-width: 100%; 
-left: 0;
-bottom: 0;
-height: 80px;
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 80px;
 }
 
-
-
-.carousel-item h5{
+.carousel-item h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     padding: 5px;
     margin: 0;
-   
-
 }
 
-.carousel-item p{
+.carousel-item p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
-    
-   
 }
 
-.carousel-item{
+.carousel-item {
     padding-bottom: 0;
     margin-bottom: 15px;
 }
 
-#stock-row{
+#stock-row {
     display: flex;
-     flex-wrap: unset;
-     align-items: center;
-     align-content: center;
-     justify-content: center;
-}
-
-
-@media only screen and (max-width: 576px) {
-#stock-row{
-      display: flex;
-    flex-wrap: wrap;
+    flex-wrap: unset;
     align-items: center;
     align-content: center;
     justify-content: center;
-   
-}
 }
 
+@media only screen and (max-width: 576px) {
+    #stock-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
 
-
-
-
-.visit-head{
+.visit-head {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -625,32 +543,28 @@ height: 80px;
     text-transform: uppercase;
     color: white;
     background-color: #006aa9;
-
 }
-
 
 @media only screen and (max-width: 576px) {
-   
-  .visit-head{
-      font-size: 25px;
-   }
-  .flagg-1 , .flagg-2{
-    font-size: 25px;
-}
-}
-
-
-
-.flagg-1{
-     color: #fecd00;;
+    .visit-head {
+        font-size: 25px;
+    }
+    .flagg-1,
+    .flagg-2 {
+        font-size: 25px;
+    }
 }
 
-.flagg-2{
+.flagg-1 {
     color: #fecd00;
 }
 
-.para-2{
-     font-family: "Roboto", sans-serif;
+.flagg-2 {
+    color: #fecd00;
+}
+
+.para-2 {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
     margin-top: 5px;
@@ -659,114 +573,101 @@ height: 80px;
     color: #000;
 }
 
-
-
-
-#stockholm-image-one{
+#stockholm-image-one {
     background: url("../image/fika-i-stockholm.jpg") no-repeat;
     background-size: cover;
     width: 550px;
     height: 350px;
     position: relative;
     margin: 10px;
-     border-radius: 2%;
+    border-radius: 2%;
 }
 
-#stockholm-image-one:hover{
+#stockholm-image-one:hover {
     background-size: 560px;
 }
 
 @media only screen and (max-width: 576px) {
-   
-  #stockholm-image-one{
-      width: 300px;
-   }
+    #stockholm-image-one {
+        width: 300px;
+    }
 }
-
-
-
-
 
 #stockholm-text-one {
     padding-top: 10px;
     padding-left: 10px;
-    bottom: 20px; 
-font-size: 15px;
-color: #fafafa;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
+    bottom: 20px;
+    font-size: 15px;
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     position: absolute;
     text-transform: uppercase;
 }
 
-#stockholm-image-two{
+#stockholm-image-two {
     background: url("../image/IMG_stockholm.jpg") no-repeat;
     background-size: cover;
     width: 300px;
     height: 350px;
     position: relative;
     margin: 10px;
-   border-radius: 2%;
-   
+    border-radius: 2%;
 }
 
-#stockholm-image-two:hover{
+#stockholm-image-two:hover {
     background-size: 540px;
 }
 
-
- #stockholm-text-two{
-      padding-top: 10px;
+#stockholm-text-two {
+    padding-top: 10px;
     padding-left: 10px;
-    bottom: 20px; 
-font-size: 15px;
-color: #fafafa;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
+    bottom: 20px;
+    font-size: 15px;
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     position: absolute;
     text-transform: uppercase;
- }
+}
 
- #stockholm-image-three{
+#stockholm-image-three {
     background: url("../image/event-i-stockholm.jpg") no-repeat;
     background-size: cover;
     width: 300px;
     height: 350px;
     position: relative;
     margin: 10px;
-     border-radius: 2%;
+    border-radius: 2%;
 }
-#stockholm-image-three:hover{
+#stockholm-image-three:hover {
     background-size: 320px;
 }
 
- #stockholm-text-three{
+#stockholm-text-three {
     padding-top: 10px;
     padding-left: 10px;
-    bottom: 20px; 
-font-size: 15px;
-color: #fafafa;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
+    bottom: 20px;
+    font-size: 15px;
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     position: absolute;
     text-transform: uppercase;
-    
- }
+}
 
-.line{
-   border: 1px solid #000;
-   width: 600px;
- 
+.line {
+    border: 1px solid #000;
+    width: 600px;
 }
 
 @media only screen and (max-width: 576px) {
-   
-    .line{
+    .line {
         width: 300px;
-     }
-  }
+    }
+}
 
-.sunny{
+.sunny {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 25px;
@@ -774,7 +675,7 @@ font-weight: 500;
     padding: 10px;
 }
 
-.walk-info{
+.walk-info {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -782,84 +683,66 @@ font-weight: 500;
     letter-spacing: 1px;
     margin-top: 5px;
     padding: 0px;
-
 }
 
- #walk-image{
-   
-    
-     display: flex;
+#walk-image {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-   
 }
 
-#walk-image img{
+#walk-image img {
     margin: 10px;
     height: 380px;
-    box-shadow:  3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
 }
-
 
 @media only screen and (max-width: 576px) {
-   
-    #walk-image img{
-      width: 250px;
-      height: 250px;
-   }
+    #walk-image img {
+        width: 250px;
+        height: 250px;
+    }
 }
 
-
-    .card {
-    
-      border: 2px solid #c9c9c9;
-      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-     margin: 5px;
-     
-    }
-
-   
-
-   .card-body {
-       padding-top: 3px;
-       margin:8px;
-   }
-
-.card img{
+.card {
+    border: 2px solid #c9c9c9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
     margin: 5px;
-   
+}
+
+.card-body {
+    padding-top: 3px;
+    margin: 8px;
+}
+
+.card img {
+    margin: 5px;
+
     padding-right: 8px;
-   max-width: 180px;
+    max-width: 180px;
     max-height: 200px;
 }
 
-
-.card-text{
+.card-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
-
-
 }
 
-.text{
+.text {
     font-size: 15px;
     color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 500;
-    
-    
 }
 
-.card a{
+.card a {
     text-decoration: none;
 }
 
-
-
-.map-title{
+.map-title {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -869,44 +752,31 @@ font-weight: 500;
 }
 
 #map {
- height: 720px;
-  width: 100%;
-  margin:20px;
-
-
+    height: 720px;
+    width: 100%;
+    margin: 20px;
 }
 
 @media only screen and (max-width: 576px) {
-   
-  #map {
- height: 400px;
-  width: 100%;
-  margin:10px;
-  
-  
+    #map {
+        height: 400px;
+        width: 100%;
+        margin: 10px;
+    }
+    .text {
+        display: block;
+        font-size: 15px;
+        color: #000;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 700;
+        margin-left: 5px;
+    }
 }
-.text{
-    display: block;
-    font-size: 15px;
-    color: #000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
-    margin-left: 5px;
-    
-    
-}
-
-
-
-
-}
-
-
 
 /*---------------------------------------------------------------------*/
 
 .more-info div {
-       display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -914,7 +784,7 @@ font-weight: 500;
     position: relative;
 }
 
-.more-text{
+.more-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -923,27 +793,26 @@ font-weight: 500;
     text-transform: uppercase;
 }
 
-#more-box img{
+#more-box img {
     padding: 6px;
     margin: 0;
     margin-bottom: 10px;
     width: 100%;
-   
 }
 
 #more-box .content {
-  position: absolute; 
+    position: absolute;
 
-  bottom: 0; 
-  background: rgba(0, 0, 0, 0.5);
-  color: #fafafa;
-  width: 95%; 
-  max-height: 40%;
-  padding: 5px;
-  margin: 15px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+    width: 95%;
+    max-height: 40%;
+    padding: 5px;
+    margin: 15px;
 }
 
-.content h5{
+.content h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -951,8 +820,7 @@ font-weight: 500;
     color: #fafafa;
 }
 
-.more-para{
-    
+.more-para {
     margin: 0;
     padding-top: 5px;
     font-size: 15px;
@@ -960,75 +828,63 @@ font-weight: 500;
 
 /*---------------------------------------------------Gallary-page*/
 
-
-#gallary-container{
+#gallary-container {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
 
-#gallary-foto{
-     height: 500px;
+#gallary-foto {
+    height: 500px;
     width: 100%;
     background: url("../image/Stockholm-view-1.webp") no-repeat center center;
     background-size: cover;
     opacity: 0.9;
-   
 }
 
-#main{
+#main {
     padding-top: 10px;
     padding-left: 10px;
     bottom: 25px;
-    background-color: rgba(0, 0, 0, 0.2); 
-width: 100%; 
-left: 0;
-bottom: 0;
-   position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
 }
 
-#main h1{
-    color:#fafafa;
+#main h1 {
+    color: #fafafa;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 40px;
     text-transform: uppercase;
-   
-
 }
 
-#main span{
-    color:#fff;
+#main span {
+    color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 20px;
-    
-   
-
 }
-
-
 
 .head {
-  width: 100%;
-  margin-top: 40px;
+    width: 100%;
+    margin-top: 40px;
 }
 
-
-
-.gallary-head{
+.gallary-head {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 30px;
     text-align: center;
     letter-spacing: 2px;
-    color:#000;
+    color: #000;
     text-transform: uppercase;
 }
 
-#myGallary .btn{
+#myGallary .btn {
     color: #fafafa;
     background-color: #343a40;
     font-family: "Roboto", sans-serif;
@@ -1036,31 +892,26 @@ bottom: 0;
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    
-    
-
 }
 
-#myGallary .active{
+#myGallary .active {
     background-color: #046aa9;
     margin-left: 10px;
 }
 
-#myGallary button{
+#myGallary button {
     padding: 10px 15px;
     margin: 3px;
     text-decoration: none;
-    
 }
 
-#myGallary button:hover{
+#myGallary button:hover {
     opacity: 0.8;
-    
+
     display: inline-block;
 }
 
-
-#myGallary div{
+#myGallary div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1068,41 +919,32 @@ bottom: 0;
     justify-content: center;
 }
 
-
 .column {
-  float: left;
-  width: 31%;
-  display: none; 
+    float: left;
+    width: 31%;
+    display: none;
 }
 
 @media only screen and (max-width: 576px) {
-   
-  .column {
- 
-   float: left;
-  width: 100%;
-  display: none;
-  
+    .column {
+        float: left;
+        width: 100%;
+        display: none;
+    }
 }
-}
-
-
-
 
 @media only screen and (max-width: 576px) {
-   
-    .content img{
-   
-    width: 80%;
-    
-  }
-  }
+    .content img {
+        width: 80%;
+    }
+}
 
-  .content img{
-      width: 100%;
-  }
+.content img {
+    width: 100%;
+}
 
-.content h4, .content p{
+.content h4,
+.content p {
     padding: 12px;
 }
 
@@ -1110,48 +952,38 @@ bottom: 0;
     display: block;
     box-shadow: 1px 0px 10px 3px rgb(235, 232, 232);
     margin: 10px;
-
 }
-
-
-
-
-
-
 
 /*----------------------------------------------------------Contact-page*/
 
-#answer-container{
-    
+#answer-container {
     width: 100%;
     overflow: hidden;
     position: relative;
     padding: 0;
-    
 }
 
-#answer-foto{
-     height: 350px;
+#answer-foto {
+    height: 350px;
     width: 100%;
     background: url("../image/contact-foto.jpg") no-repeat center center;
     background-size: cover;
     opacity: 0.9;
-   
 }
 
-#answer{
+#answer {
     width: 250px;
     height: 70px;
 
     background: #046aa9;
-color: #fff;
+    color: #fff;
 
     bottom: 350px;
     left: 3px;
-   position: absolute;
+    position: absolute;
 }
 
-#answer h1{
+#answer h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -1161,26 +993,22 @@ color: #fff;
 }
 
 @media only screen and (max-width: 576px) {
-
-    #answer-foto{
+    #answer-foto {
         height: 250px;
         width: 100%;
     }
 
-    #answer{
+    #answer {
         width: 200px;
         height: 60px;
         top: 55px;
-        
     }
-    #answer h1{
+    #answer h1 {
         font-size: 30px;
-     
     }
-
 }
 
-.answer-title{
+.answer-title {
     padding: 15px 0;
     margin: 0;
     font-family: "ROboto", sans-serif;
@@ -1189,18 +1017,15 @@ color: #fff;
     text-align: center;
 }
 
-
-.answer-para{
+.answer-para {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
     padding: 5px;
-
 }
 
-
-#answer-form{
+#answer-form {
     height: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -1209,37 +1034,34 @@ color: #fff;
     justify-content: center;
 }
 
-.form-content label{
-   font-family: "Roboto", sans-serif;
-   font-weight: 500;
-   font-size: 15px;
-   
-   padding-top: 3px;
+.form-content label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+    padding-top: 3px;
 }
 
-.form-content input{
+.form-content input {
     border-radius: 10%;
     border: 1px solid #046aa9;
-
 }
 
-
-
-.valid-feedback{
+.valid-feedback {
     font-size: 15px;
     color: rgb(35, 109, 35);
 }
 
-.invalid-feedback{
+.invalid-feedback {
     font-size: 15px;
     color: rgb(212, 50, 50);
 }
 
-#signupform{
+#signupform {
     border-radius: 50%;
     background-color: #046aa9;
 }
 
-#signupform:hover{
+#signupform:hover {
     opacity: 0.8;
 }
