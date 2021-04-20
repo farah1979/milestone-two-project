@@ -1,5 +1,5 @@
 //                                                                Gallary-page
-onFilterSelect("all") //---------------------Show All Items
+onFilterSelect("all"); //---------------------Show All Items
 function onFilterSelect(filterType) {
   let galleryImages = $(".column");
   for(var i=0; i < galleryImages.length; i++) {
@@ -8,10 +8,10 @@ function onFilterSelect(filterType) {
       } else {
         $(galleryImages[i]).removeClass("show");
       }
-  };
-};
+  }
+}
 var galleryContainer = $("#myGallary");
-var buttons = Container.$(".btn");
+var buttons = galleryContainer.$(".btn");
 buttons.forEach(button => {
   button.addEventListener("click", function(){
     var current = $(".active");
