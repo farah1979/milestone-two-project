@@ -1,6 +1,6 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
+      zoom: 11,
       center: { lat: 59.334591, lng: 18.06 },
   });
   // Set LatLng and title text for the markers.
@@ -61,7 +61,22 @@ function initMap() {
           { lat: 59.3541609661811, lng: 17.975724930752882 },
           "<h6>STHLM Stage And Music</h6><p style='color:#000;  font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong> Hemvärnsgatan 13, 171 54 Solna<br><strong>Telefon:</strong>  +46706677540 <br>,<strong>Hemsida:<a href ='http://stageandmusic.se/' target='_blank'>Stage And Music</a> </strong><br> <img src='assets/image/stageandmusic-logo.png' style=' background-color: #000;' height='100'> </p>",
       ],
+      [
+        { lat: 59.271389399661345, lng: 18.10280434267766 },
+        "<h6>Skogskyrkogården</h6><p style='color:#000;  font-size: 12px;  letter-spacing: 1px;'><strong>Adress:</strong>Sockenvägen, Stockholm<br><strong>Telefon:</strong>  +46850831730 <br>,<strong>Hemsida:<a href ='https://skogskyrkogarden.stockholm.se/' target='_blank'>Skogskyrkogården</a> </strong><br> <img src='assets/image/skog.jpg' style=' background-color: #000;' height='100'> </p>",
+    ],
   ];
+
+
+  // Creat a link between external anchor and Google map.
+  $(".location-on-map").click(function() {
+    map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+    map.setZoom(16);
+    });
+
+
+
+
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow({
       maxWidth: 250,
