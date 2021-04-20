@@ -409,7 +409,14 @@ body {
     overflow: hidden;
     margin-bottom: 16px;
     text-transform: uppercase;
-   
+    
+       
+       
+        font-size: 15px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+    padding-top: 8px; 
 
 }
 .hvr-sweep-to-right:before {
@@ -450,14 +457,7 @@ transition: all 1500ms ease;
 
 }
 
-.tr-sweden a{
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: #000;
-    text-decoration: none;
 
-}
 
 
 /*---------------------------------------------Footer*/
@@ -933,7 +933,7 @@ font-weight: 500;
 
 #more-box .content {
   position: absolute; 
-  top:1;
+
   bottom: 0; 
   background: rgba(0, 0, 0, 0.5);
   color: #fafafa;
