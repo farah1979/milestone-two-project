@@ -51,3 +51,12 @@ ADD http://ami.responsivedesign.is/
 
 ## Frequent Visitor Goals
 
+1. The site is concerned with the most beautiful tourist areas, which increases the visitor's desire to visit the site frequently.
+2. An uncomplicated search method that makes it easy for the frequent visitor to reach his goal easily
+3.  The site includes the most important tourist, cultural and historical points. Which makes the visitor or tourist want to visit Sweden
+4. If you're longing for wild nature full of mountains, trees, lakes and animals, Sweden is one of the best places to experience it and one of the important Stockholm hiking spots has been shown at the site.
+5. Castles, do you like castles? From Stockholm and below there are hundreds of castles to check out, it's possible to visit Drottningholm Palace where the Swedish King and Queen live and Some details of one of the royal castles have been placed at the Website.
+6. Stockholm, the capital of Sweden, with all its canals, islands and small islands. Stockhome is a great capital, not too big, not too small, quite suitable. The rich history and culture offer a wonderful visit as well as the surrounding nature and a wide range of entertainment شnd on the Stockholm page there is some brief information that attracts the frequent visitor.
+7. Architecture, Swedish architecture offers a mixture of the old and the new. Many cities have preserved the old style and you won't see much skyscrapers here. The details are exceptional, just look at some of the photos that have been added to the Website and although we do not have many skyscrapers, we do have quite a few unique buildings with wonderful architecture.¨
+8. And many many other reasons that cannot be shortened here, which makes the visitor visit the Website again and again, and thus reach the goal of the project, which is to visit the country rich in nature, stunning beauty and beautiful history.
+
