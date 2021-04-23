@@ -57,7 +57,7 @@
             </div>
         </section>
         <section class="container" id="answer-form">
-            <form onsubmit="return sendMail(this);" class="needs-validation" novalidate>
+            <form onsubmit="return sendMail(this);" class="needs-validation form-contact" novalidate>
                 <div class="row no-gutters">
                     <div class="col-md-12 col-sm-2 form-content" style="margin: 10px;">
                         <label for="fName">First Name</label>
@@ -86,8 +86,11 @@
                     <div class="col-md-12 col-sm-2 form-content" style="margin: 10px;">
                         <label for="validationCustomUsername" class="form-label">Username</label>
                         <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend" style="border-radius: 10%; background-color: #046aa9; color: #fff;">@</span>
-                            <input type="text" class="form-control" placeholder="username" id="validationCustomUsername" name="validationCustomUsername" aria-describedby="inputGroupPrepend" style="border-radius: 10%;" required />
+                            <span class="input-group-text" id="inputGroupPrepend" style=" background-color: #046aa9; color: #fff;">@</span>
+                            <input type="text" class="form-control" placeholder="username" id="validationCustomUsername" name="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
                             <div class="invalid-feedback">
                                 Please choose a username.
                             </div>

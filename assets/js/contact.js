@@ -18,7 +18,12 @@
   });
 })();
 
-//Contact Emailjs with website
+//initialize Emailjs and getting information from form by Emailjs
+
+(function() {
+    emailjs.init("user_POEdj6itAaMNgwxGUgTJY");
+})();
+
 
 function sendMail(contactForm) {
   emailjs
@@ -39,3 +44,9 @@ function sendMail(contactForm) {
       );
   return false;
 }
+
+let form = document.getElementsByClassName("form-contact")
+form.addEventListener('submit', function submitForm (event) {
+  event.preventDefault()
+  form.reset()
+})

@@ -16,7 +16,7 @@ function myScrollFunction() {
 
 // creat New List in index.html page
 
-$("<h2>Useful Education links</h2>").addClass("headList_0").appendTo(".designList");
+$("<h2>Useful links in Sweden</h2>").addClass("headList_0").appendTo(".designList");
 
 $("#educationList").addClass("headList_1").addClass("headList_1 a");
 
@@ -30,12 +30,18 @@ var myArray = [
 
 function myListItem(data) {
     var list = document.getElementById("educationList");
+    
     var ul = document.createElement("ul");
     for (var i = 0; i < data.length; i++) {
+        
+        
         ul.innerHTML = ul.innerHTML + "<li><a href='#'>" + myArray[i] + "</a></li>";
+        
     }
-
+ 
     list.appendChild(ul);
+    list.setAttribute('target', '_blank');
+   
 }
 myListItem(myArray);
 

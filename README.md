@@ -90,12 +90,12 @@ ADD http://ami.responsivedesign.is/
 
 [View the Gallary-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D01efac908f659dcb6df42d2903699d27.pdf)
 
-- Here I have created mobile app layout for the most important pages in the project, which are Home, Stockholm, and Gallery.
-
 [View the Contact-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D30487c1078dbfad1f940e905ef756fc7.pdf)
 
+- Here I have created mobile app layout for the most important pages in the project, which are Home, Stockholm, and Gallery.
 
-[View the Mobile responsive wireframes](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D26a47b0cb10d6cbd8cafe3e14d21e001.pdf)
+
+[View the Mobile responsive wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D26a47b0cb10d6cbd8cafe3e14d21e001.pdf)
 
 # Technologies
 ## Languages Used:
@@ -199,3 +199,142 @@ In the bellow of these cars there is a map that includes the most important tour
 
 
 # Testing
+The W3C Markup Validator, W3C CSS Validator and Beautify Tools JavaScript Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [Beautify Tools JavaScript Validator](https://beautifytools.com/javascript-validator.php)
+
+## Manual testing for each page and make sure that evrything is working corect
+### Home page:
+ - Navbar:
+   - Click on the swedish flag in right side of the navbar to make sure that it links to the homepage.
+
+   - Look and click on the navbar items and make sure each works correctly and opens the correct page for it.
+- Check that the header will move down when the user scrolls down the homepage or any other page in the project.
+   - Change the screen size from the desktop to the tablet or to the mobile phone, then you will notice that the built-in navigation menu will turn into a mobile hamburger menu and then make sure that all the menu items are working properly and in the correct place.
+
+  - Click on the YouTube icon from the big picture, where a new window will open outside the site and a documentary film about Sweden will be displayed.
+
+  - Below the phrase welcome to Sweden, you will see 3 circular images as each image is a guide to its section..Click on each image and make sure it will take you to the right place.
+
+  - In the middle of the page in the Education section on the left side, you will find a list titled * Useful Links in Sweden *, which consists of fields that each field contains a link to its site for those who wish to know the laws of the country or for those who wish to educate. Click each link, and it will open a new window for you on its website, giving you more information about the country.
+
+  - At the end of the page before the footer there are 3 buttons, click on them, you will find that they work smoothly and they will take you to the gallery page.
+
+  - Hover over the button to verify that it changes its colour.
+
+ - Expand and reduce a screen size to verify that all sections with the text and images looks good on different screen widths.
+ - Make sure that all contents in this page are visible.
+ 
+
+  - Footer.
+    - In the footer you will find the country logo, click on it, and it will take you to the top of the same page easily.
+    - Additionally, 3 links have been developed,Click any one of them. You will find a new website that will open outside of the programmer's site to attract as much information about visiting that country as well.
+    - Click on the social media links, you will notice that they are working properly and a new window will open for you with their social media link.
+    - Change the window width to verify that the footer is responsive and looks good for different screen sizes.
+
+### Stockholm page:
+ - Make sure that all contents in this page are visible.
+ -  Expand and reduce a screen size to verify that all sections with the text and images looks good on different screen widths.
+ - Change the images on the carousel item by clicking on the "Next or Previous" button, and you will find that they work fine.
+ - There are 3 images under the phrase "DISCOVER OUR CAPITAL IN NEW, CREATIVE WAYS!" Mouse over it, you will find simple animation effects in every image to increase the aesthetics of the site.
+ - On this page, one of the most important places for hiking in the capital “Skinnarviksberget” and “Skogskyrkogården” is presented,
+   - Click on the first link, where you will find it below the picture, you will notice that the place’s site will open in the new tap to read more about this place and get to know it.
+    - Click on the second link at the end of the card to make sure that the correct map marker will be zoomed in.
+  - Google map:
+    - Check that the clusters are working properly.
+    - Make sure all markers are on the map.
+    - Click on each marker to open this infowindow.
+    - Check that the infoWindow contains comprehensive data for every place that was added to the map. 
+    - Make sure that all information about the place is correct.
+    -  In addition, make sure that each link appears with you in the infowindow works correctly.
+
+### Gallary page:
+- Make sure all contents in this page are visible.
+- Expand and reduce a screen size to verify that all sections with the text and images looks good on different screen widths.
+- Hover your mouse over each of the four buttons at the top of the page, and you will find that the opacity of the image will decrease.
+- You will find one of the four buttons in a different color than the others, which indicates that it is active.
+- Click on the show all button, you will find all the images with their text shown on the page.
+- Click on the second, third, or fourth button. Only images with their own data will appear.
+- Click the button to make sure that it links with the correct section.
+- Check that all buttons are working properly.
+
+### Contact page:
+- Ensure that this form cannot be submitted without filling in all the required fields.
+- Ensure that the user has successfully sent their message to the programmer's email by testing the form.
+- Ensure that all fields will be cleaned automatically after the user sends messages.
+- Make sure all contents in this page are visible.
+- Expand and reduce a screen size to verify that all section looks good on different screen widths.
+
+## Testing User Stories from the User Experience section
+### First Time Visitor Goals
+- Understand the content of the website smoothly and without complication
+- When the visitor enters the site for the first time, he will see the country’s flag in the scroll bar(Navbar) on one side and on the other side the items of the navbar through which he will be able to navigate to any page he wants easily.
+- The website contains a clear, understandable, responsive and movable navigation bar, which allows the user to easily move between pages, and the addition of the animated bar feature allows the visitor the greatest amount of ease to change betwwen different pages.
+- As a new user, I would like to see a website working properly on my device.
+- I want a website that can be responsive on the different devices and 
+ different screen widthes.
+ - I want a site that has clear content, beautiful images and comfortable writing fonts.
+- I want all location data to be clear and understandable on devices of various sizes and work with various browsers as well.
+- I want a site with all the important information about the country to facilitate my destination and the possibility of not taking a great deal of time from the visitor searching to get what he needs about the country.
+- I want to find a map on the site that I as a tourist in this country, can use it as a guide and guide for my way and it must be clear and easy to use.
+- As a first time visitor, I want to find some tips and advice on the most important places in the country.
+- On the website page, the visitor can click on any marker available on the map, and full information about this tourist point will appear in the infowindow, whether it is the best hotels, restaurants, cafes or entertainment places.
+- All buttons, form and links have been tested several times and worked perfectly.
+- The Facebook, Instagram, Linkedin, Twitter Pages can be found at the footer of every page and every one will open a new tab for the user and more information can be found on the Social pages.
+- The Youtube link can be found in two diffrent place in the big image in the Home page which can easily click on it and see more information about the country and in the footer of every page and will open a new tab for the user and can find many videos about the country.
+
+### Frequent visitors Goals
+- As a frequent visitor, I want to check if there are any updates or newly added information.
+- As a frequent user, it will be easy for me to plan a tourist or educational trip to this wonderful country.
+- As a frequent visitor, I want to ask all possible questions about the trip to the programmer before I travel
+- I want to make sure that the site works easily in all devices and that there are no apparent problems.
+
+### Further testing
+- The site was tested on various browsers, such as Google Chrome, Mozilla Firefox, Microsoft Edge and
+Safari.
+- To ensure that the website is responsive and work corect it is shown on different devices such as desktops, laptops, tablets (Samsung galaxy tab A), and mobile (Iphone 6, IPhone X, IPhone XS Max, IPhone11 PRO MAX, and Samsung Galaxy S10).
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- All buttons, form and links have been tested multiple times to ensure they are working properly.
+-  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+- No known bugs.
+
+# Deployment
+## GitHub Pages
+### My project was deployed to GitHub Pages using the following steps:
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+7. This is my publish website link ()
+
+# Credits
+## Code
+[Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- Bootstrap Grid: used to easy and smoothy build the main stractures of my project.
+- Bootstrap components: I have used many components to create a navigation bar, carousel items, card items and to make the Website more smoothly and responsive.
+
+[W3schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/): These resources were used to find coding hints and solutions.
+
+[Code Institute Lectures](https://codeinstitute.net/): I was referring to some of the lectures during the construction of the project to remind some data that I had forgotten.
+
+[Mockplus](https://www.mockplus.com/blog/post/hamburger-menu-examples): From this site, I learned how to build a hamburger menu in various mobile devices.
+
+## Content
+- All code has been written by developer.
+- The data was copied from various Swedish sites, and all links on the site refer to external sites for the benefit and the future of this country and the idea of the big images was inspired by them like [Visitsweden](https://visitsweden.com/).
+
+## Media
+- Images were used from the following sites:
+  - [Unsplash](https://unsplash.com/s/photos/stockholm)
+  - [Google](https://www.google.com/search?q=+images+for+sweden&tbm=isch&ved=2ahUKEwiN2q2NtpTwAhXHtioKHfcFBhkQ2-cCegQIABAA&oq=+images+for+sweden&gs_lcp=CgNpbWcQA1CepgFYw6sBYNmzAWgAcAB4AIABVogBiQSSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8sSCYI2ZF8ftqgH3i5jIAQ&bih=657&biw=1396&rlz=1C1SQJL_svSE836SE836)
+
+  ## Acknowledgements
+ - I have had great support from my family, first and foremost my husband, as well as my best friend
+ - My Mentor Akshat_Garg for support and useful feedback.
+
+ 
