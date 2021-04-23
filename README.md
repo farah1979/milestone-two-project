@@ -17,7 +17,7 @@
 <p>This project deals with a simple presentation of one of the most important Scandinavian countries, which is the Kingdom of Sweden. The aim of this website is to attract tourists to this wonderful country, distinguished by its picturesque nature, refreshing climate, and ancient history, which deserves to be known closely. It reviewed one of the most important provinces in the state of Sweden, which is the heart of the country **The capital,Stockholm**
 This project contains 4 basic pages, which are the **Home page** ... **Stockholm page**  ...**gallary page** ... and finally a **Contact page** which can contact with the developer to respond to any question or inquiry from the visitor about the country and It should be clear, easy to navigate, and responsive to different types of devices.</p>
 
-<img src="assets/image/image.png" height="200" >
+<img src="assets/image/image.png" >
 
 <br>
 <br>
@@ -36,7 +36,8 @@ This project contains 4 basic pages, which are the **Home page** ... **Stockholm
 
 # Scope
 The second project is built on solid foundations, which makes the website more effective amd interactive  with the users, and this is the main goal of it ... the project consists of **HTML 5**, **Stylesheet CSS**, and **JavaScripts**.
-ADD http://ami.responsivedesign.is/
+
+<img src="assets/image/project-view.png" >
 
 <br>
 
@@ -136,7 +137,7 @@ I have used Paint image and photo editing software to crob and resize the Pr scr
 
 # Features
 ## The Website is summarized to:
-- The site consists of 4 pages: [Home](), [Stockholm](), [Gallery]() and [Contact Us]()
+- The site consists of 4 pages: [Home](https://farah1979.github.io/welcome-to-sweden/index.html), [Stockholm](https://farah1979.github.io/welcome-to-sweden/stockholm.html), [Gallery](https://farah1979.github.io/welcome-to-sweden/gallary.html) and [Contact Us](https://farah1979.github.io/welcome-to-sweden/contact.html)
 - Each page contains a large eye-pleasing image that shows the user one of the country's most picturesque landmarks
 - The page navigation slide is easy and clear to the user, as it makes the user move between pages comfortably
 - While scrolling on the page, the navigation slide is downloaded with the user, making it easy for the user to move to the next page without returning to the top of the page.
@@ -310,7 +311,7 @@ Safari.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-7. This is my publish website link ()
+7. This is my publish website link [Welcome To Sweden](https://farah1979.github.io/welcome-to-sweden/)
 
 # Credits
 ## Code
@@ -337,4 +338,3 @@ Safari.
  - I have had great support from my family, first and foremost my husband, as well as my best friend
  - My Mentor Akshat_Garg for support and useful feedback.
 
- 
