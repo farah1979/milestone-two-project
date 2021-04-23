@@ -21,7 +21,7 @@ $("<h2>Useful links in Sweden</h2>").addClass("headList_0").appendTo(".designLis
 $("#educationList").addClass("headList_1").addClass("headList_1 a");
 
 var myArray = [
-    "<a href=https://www.do.se/other-languages/english/>Equality Ombudsman</a>",
+    "<a href=https://www.do.se/other-languages/english/ target='_blank'>Equality Ombudsman</a>",
     "<a href=https://scb.se/en_/>Statistics Sweden</a>",
     "<a href=https://skr.se/tjanster/englishpages.411.html/>Swedish Association of Local Authorities and Regions</a>",
     "<a href=https://www.skolinspektionen.se/en/About-Skolinspektionen/About-the-Swedish-Schools-Inspectorate/>Swedish Schools Inspectorate</a>",
