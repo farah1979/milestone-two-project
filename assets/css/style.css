@@ -82,13 +82,11 @@ body {
 #data {
     width: 200px;
     height: 50px;
-
+    transform: translateX(-50%);
+    right: 8%;
     padding-top: 10px;
     padding-left: 10px;
-
     bottom: 25px;
-    right: 150px;
-
     position: absolute;
 }
 
@@ -204,7 +202,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-
     text-transform: uppercase;
 }
 #edjucationTable{
@@ -288,7 +285,6 @@ body {
 
 #educationList img {
     height: 300px;
-    
     width: 250px;
     padding-left: 10px;
 }
@@ -323,7 +319,6 @@ body {
 .table-img {
     height: 200px;
     width: 200px;
-   
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 38px;
@@ -335,8 +330,6 @@ body {
     width: 200px;
     margin-left: 38px;
     margin-bottom: 10px;
-   
-
     border: 1px solid #3f4144;
 }
 
@@ -361,7 +354,6 @@ body {
     overflow: hidden;
     margin-bottom: 16px;
     text-transform: uppercase;
-
     font-size: 15px;
     color: #000;
     text-decoration: none;
@@ -387,18 +379,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-
     text-transform: uppercase;
-
     padding-top: 15px;
 }
 .tr-po {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-   
-    justify-content: center;
-   
+    align-items: center;  
+    justify-content: center;  
     margin-top: 10px;
 }
 
@@ -472,7 +460,7 @@ body {
 #stockholm-image {
     height: 500px;
     width: 100%;
-    background: url("../image/visit-stockholm.jpg") no-repeat center center;
+    background: url("../images/visit-stockholm.jpg") no-repeat center center;
     background-size: cover;
     animation-name: stockholm-zoom;
     animation-duration: 10s;
@@ -572,7 +560,7 @@ body {
 }
 
 #stockholm-image-one {
-    background: url("../image/fika-i-stockholm.jpg") no-repeat;
+    background: url("../images/fika-i-stockholm.jpg") no-repeat;
     background-size: cover;
     width: 550px;
     height: 350px;
@@ -610,7 +598,7 @@ body {
 }
 
 #stockholm-image-two {
-    background: url("../image/IMG_stockholm.jpg") no-repeat;
+    background: url("../images/IMG_stockholm.jpg") no-repeat;
     background-size: cover;
     width: 300px;
     height: 350px;
@@ -640,7 +628,7 @@ body {
 }
 
 #stockholm-image-three {
-    background: url("../image/event-i-stockholm.jpg") no-repeat;
+    background: url("../images/event-i-stockholm.jpg") no-repeat;
     background-size: cover;
     width: 300px;
     height: 350px;
@@ -731,7 +719,6 @@ body {
 
 .card img {
     margin: 5px;
-
     padding-right: 8px;
     max-width: 180px;
     max-height: 200px;
@@ -786,7 +773,6 @@ body {
     }
 }
 
-/*---------------------------------------------------------------------*/
 
 .more-info div {
     display: flex;
@@ -818,12 +804,12 @@ body {
     #more-box img {
         height: 250px;
     }
-  
+ 
+
 }
 
-#more-box .content {
+#more-box .conten {
     position: absolute;
-
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #fafafa;
@@ -833,7 +819,7 @@ body {
     margin: 15px;
 }
 
-.content h5 {
+.conten h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -860,7 +846,7 @@ body {
 #gallary-foto {
     height: 500px;
     width: 100%;
-    background: url("../image/Stockholm-view-1.webp") no-repeat center center;
+    background: url("../images/Stockholm-view-1.webp") no-repeat center center;
     background-size: cover;
     opacity: 0.9;
 }
@@ -873,9 +859,8 @@ body {
    
 }
 
+
 #main {
-  
-   
   
     width: 100%;
     left: 0;
@@ -889,30 +874,20 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-#main h1 {
-    color: #fafafa;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-transform: uppercase;
+#main h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }
 
-#main span {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
+#main span{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
 }
 
 
-@media only screen and (max-width: 576px) {
-    #main span{
-        font-size: 1rem;
-    }
 
-
-
-}
 
 .head {
     width: 100%;
@@ -924,7 +899,7 @@ body {
     font-weight: 500;
     font-size: 30px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #000;
     text-transform: uppercase;
 }
@@ -936,7 +911,7 @@ body {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
 #myGallary .active {
@@ -952,7 +927,6 @@ body {
 
 #myGallary button:hover {
     opacity: 0.8;
-
     display: inline-block;
 }
 
@@ -1017,7 +991,7 @@ body {
 #answer-foto {
     height: 350px;
     width: 100%;
-    background: url("../image/contact-foto.jpg") no-repeat center center;
+    background: url("../images/contact-foto.jpg") no-repeat center center;
     background-size: cover;
     opacity: 0.9;
 }
@@ -1025,10 +999,8 @@ body {
 #answer {
     width: 250px;
     height: 70px;
-
     background: #046aa9;
     color: #fff;
-
     bottom: 350px;
     left: 3px;
     position: absolute;
@@ -1089,7 +1061,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
-
     padding-top: 3px;
 }
 

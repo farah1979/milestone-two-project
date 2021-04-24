@@ -11,7 +11,7 @@ function onFilterSelect(filterType) {
     }
 }
 var galleryContainer = $("#myGallary");
-var buttons = galleryContainer.$(".btn");
+var buttons = Container.$(".btn");
 buttons.forEach((button) => {
     button.addEventListener("click", function () {
         var current = $(".active");
@@ -19,5 +19,3 @@ buttons.forEach((button) => {
         this.className += " active";
     });
 });
-
-
