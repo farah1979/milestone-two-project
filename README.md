@@ -90,7 +90,7 @@ The second project is built on solid foundations, which makes the website more e
 
 [View the Gallary-page wireframe](assets/files/gallery-page.pdf)
 
-[View the Contact-page wireframe](assets/files/contact-page.pdf)
+[View the Contact-page wireframe](assets/files/contact-page(2).pdf)
 
 - Here I have created mobile app layout for the most important pages in the project, which are Home, Stockholm, and Gallery.
 
