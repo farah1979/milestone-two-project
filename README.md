@@ -1,11 +1,11 @@
-<img src="assets/image/Flag_of_Sweden.jpg" height="100" width="200">
+<img src="assets/images/Flag_of_Sweden.jpg" height="100" width="200">
 
 # General Information
 <h1 align="center">Welcome To Sweden</h1>
 <p>This project deals with a simple presentation of one of the most important Scandinavian countries, which is the Kingdom of Sweden. The aim of this website is to attract tourists to this wonderful country, distinguished by its picturesque nature, refreshing climate, and ancient history, which deserves to be known closely. It reviewed one of the most important provinces in the state of Sweden, which is the heart of the country **The capital,Stockholm**
 This project contains 4 basic pages, which are the **Home page** ... **Stockholm page**  ...**gallary page** ... and finally a **Contact page** which can contact with the developer to respond to any question or inquiry from the visitor about the country and It should be clear, easy to navigate, and responsive to different types of devices.</p>
 
-<img src="assets/image/image.png" >
+<img src="assets/images/image.png" >
 
 <br>
 <br>
@@ -36,7 +36,7 @@ This project contains 4 basic pages, which are the **Home page** ... **Stockholm
 # Scope
 The second project is built on solid foundations, which makes the website more effective amd interactive  with the users, and this is the main goal of it ... the project consists of **HTML 5**, **Stylesheet CSS**, and **JavaScripts**.
 
-<img src="assets/image/project-view.png" >
+<img src="assets/images/project-view.png" >
 
 <br>
 
