@@ -84,7 +84,7 @@ The second project is built on solid foundations, which makes the website more e
 ## Wireframes
 -  All wireframes pages were created by [mockflow-wireframe](https://mockflow.com).I made a simple and concise layout of all pages in the project, which are  Home, Stockholm, Gallery, and Contact pages.
 
-[View the Home-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_De0b19fbea34a0b818ba9838bc87b1990.pdf)
+[View the Home-page wireframe](assets/files/home-page-1.pdf)
 
 [View the Stockholm-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Df06e5b5e0aae5a6ddcc4dc980ffb86df.pdf)
 
