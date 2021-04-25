@@ -84,13 +84,13 @@ The second project is built on solid foundations, which makes the website more e
 ## Wireframes
 -  All wireframes pages were created by [mockflow-wireframe](https://mockflow.com).I made a simple and concise layout of all pages in the project, which are  Home, Stockholm, Gallery, and Contact pages.
 
-[View the Home-page wireframe](assets/files/home-page-1.pdf)
+[View the Home-page wireframe](assets/files/home-page.pdf)
 
-[View the Stockholm-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Df06e5b5e0aae5a6ddcc4dc980ffb86df.pdf)
+[View the Stockholm-page wireframe](assets/files/stockholm-page.pdf)
 
-[View the Gallary-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D01efac908f659dcb6df42d2903699d27.pdf)
+[View the Gallary-page wireframe](assets/files/gallery-page.pdf)
 
-[View the Contact-page wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D30487c1078dbfad1f940e905ef756fc7.pdf)
+[View the Contact-page wireframe](assets/files/contact-page.pdf)
 
 - Here I have created mobile app layout for the most important pages in the project, which are Home, Stockholm, and Gallery.
 
