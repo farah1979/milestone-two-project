@@ -18,7 +18,7 @@
     });
   })();
   
-  //initialize Emailjs and getting information from form by Emailjs
+  //qualifier Emailjs and getting information from form by Emailjs
   
   (function() {
       emailjs.init("user_POEdj6itAaMNgwxGUgTJY");
