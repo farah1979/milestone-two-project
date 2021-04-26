@@ -7,12 +7,14 @@ This project contains 4 basic pages, which are the **Home page** ... **Stockholm
 
 <img src="assets/images/image.png" >
 
+[Back to Table of contents](#table-of-contents)
+
 <br>
 <br>
 
 ## Table of contents
 * [General Information](#General-information)    
-* [Website business goals](website-business-goals)                    
+* [Website business goals](#website-business-goals)                    
 * [Scope](#scope)
 * [User Experience](#user-experience)
 * [Technologies](#technologies)
@@ -32,13 +34,15 @@ This project contains 4 basic pages, which are the **Home page** ... **Stockholm
   -  Increasing employment throughout Sweden.
   -  Education in various Swedish universities and integration through it with other cultures
 
-
+[Back to Table of contents](#table-of-contents)
 # Scope
 The second project is built on solid foundations, which makes the website more effective amd interactive  with the users, and this is the main goal of it ... the project consists of **HTML 5**, **Stylesheet CSS**, and **JavaScripts**.
 
 <img src="assets/images/project-view.png" >
 
 <br>
+
+[Back to Table of contents](#table-of-contents)
 
 # User Experience
 ## User stories
@@ -97,6 +101,8 @@ The second project is built on solid foundations, which makes the website more e
 
 [View the Mobile responsive wireframe](assets/files/mobile-responsive.pdf)
 
+[Back to Table of contents](#table-of-contents)
+
 # Technologies
 ## Languages Used:
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -133,6 +139,8 @@ Used to create the wireframe pages.
 I used google map to creat my map with clusters and markers and have been added most importent touristpoints in the map.
 - [Paint](https://www.getpaint.net/):
 I have used Paint image and photo editing software to crob and resize the Pr scr images.
+
+[Back to Table of contents](#table-of-contents)
 
 # Features
 ## The Website is summarized to:
@@ -197,6 +205,7 @@ In the bellow of these cars there is a map that includes the most important tour
 
 3. This page was created to allow the visitor or user to communicate with the programmer to answer any question or inquiry that the visitor wishes to ask about the country or any place he wishes to obtain more comprehensive and accurate information, by filling out a form. The form includes the first and last name, username, and email and through the user´s Email can the programmer communicates with the questioner as well as with the text area. There the user can write anything he would like to write to the programmer, and then click on the send us button. This page is an interactive  page, and have been used a Emailjs.
 
+[Back to Table of contents](#table-of-contents)
 
 # Testing
 The W3C Markup Validator, W3C CSS Validator and Beautify Tools JavaScript Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -301,6 +310,8 @@ Safari.
 ### Known Bugs
 - No known bugs.
 
+[Back to Table of contents](#table-of-contents)
+
 # Deployment
 ## GitHub Pages
 ### My project was deployed to GitHub Pages using the following steps:
@@ -311,6 +322,8 @@ Safari.
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 7. This is my publish website link [Welcome To Sweden](https://farah1979.github.io/welcome-to-sweden/)
+
+[Back to Table of contents](#table-of-contents)
 
 # Credits
 ## Code
@@ -337,3 +350,4 @@ Safari.
  - I have had great support from my family, first and foremost my husband, as well as my best friend
  - My Mentor Akshat_Garg for support and useful feedback.
 
+[Back to Table of contents](#table-of-contents)
