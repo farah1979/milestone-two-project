@@ -95,7 +95,7 @@ The second project is built on solid foundations, which makes the website more e
 - Here I have created mobile app layout for the most important pages in the project, which are Home, Stockholm, and Gallery.
 
 
-[View the Mobile responsive wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D26a47b0cb10d6cbd8cafe3e14d21e001.pdf)
+[View the Mobile responsive wireframe](assets/files/mobile-responsive.pdf)
 
 # Technologies
 ## Languages Used:
